@@ -1,5 +1,6 @@
 import numpy as np
 import ffmpeg
+import librosa
 
 def ffmpeg_processor(input_file):
     all_channels = []
@@ -29,7 +30,8 @@ def ffmpeg_processor(input_file):
     return combined_channels
 
 def flac_processor(input_file):
-    pass
+    audio, sample_rate = librosa.load(input_file, sr=None)
+    return audio
 
 if __name__ == '__main__':
     out = ffmpeg_processor('A Classic Education - NightOwl.stem.mp4')
