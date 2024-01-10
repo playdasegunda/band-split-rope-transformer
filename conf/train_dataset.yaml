@@ -1,0 +1,12 @@
+file_dir: ${oc.env:MUSDB_DIR}
+txt_dir: "files/"
+txt_path: null
+target: vocals
+is_training: True
+is_mono: False
+sr: 44100
+
+preload_dataset: False
+silent_prob: 0.1
+mix_prob: 0.25
+mix_tgt_too: False
