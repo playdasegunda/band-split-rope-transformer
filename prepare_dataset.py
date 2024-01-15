@@ -38,7 +38,7 @@ parser.add_argument(
     '--split',
     type=str,
     required=False,
-    default='train',
+    default='valid',
     help="Train/valid split of train dataset. Used if subset=train"
 )
 parser.add_argument(
