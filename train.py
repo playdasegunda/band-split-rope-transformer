@@ -14,7 +14,7 @@ from torch.utils.data import DataLoader
 from torch.optim import Optimizer, lr_scheduler
 
 from data import musdbDataset, collate_fn
-from model import BandSplitRNN, PLModel
+from model import BandSplitRNN, BSRoformer, PLModel
 
 log = logging.getLogger(__name__)
 
@@ -79,8 +79,11 @@ def initialize_model(
     Initializes model from configuration file.
     """
     # initialize model
-    model = BandSplitRNN(
-        **cfg.model
+    model = BSRoformer(
+        dim=512,
+        depth=12,
+        time_transformer_depth=1,
+        freq_transformer_depth=1
     )
     # initialize optimizer
     if hasattr(cfg, 'opt'):
@@ -137,8 +140,7 @@ def initialize_utils(
 def my_app(cfg: DictConfig) -> None:
     pl.seed_everything(42, workers=True)
 
-    print(OmegaConf.to_yaml(cfg))
-
+    # print(OmegaConf.to_yaml(cfg))
     # log.info()
 
     log.info("Initializing loaders, featurizers.")
@@ -167,22 +169,22 @@ def my_app(cfg: DictConfig) -> None:
         callbacks=callbacks,
     )
 
-    # log.info("Starting training...")
-    # try:
-    #     trainer.fit(
-    #         plmodel,
-    #         train_dataloaders=train_loader,
-    #         val_dataloaders=val_loader,
-    #         ckpt_path=cfg.ckpt_path
-    #     )
-    # except Exception as e:
-    #     log.error(traceback.format_exc())
-    #
-    # log.info("Training finished!")
-    #
-    # if cfg.trainer.fast_dev_run:
-    #     hydra_cfg = hydra.core.hydra_config.HydraConfig.get()
-    #     shutil.rmtree(hydra_cfg['runtime']['output_dir'])
+    log.info("Starting training...")
+    try:
+        trainer.fit(
+            plmodel,
+            train_dataloaders=train_loader,
+            val_dataloaders=val_loader,
+            ckpt_path=cfg.ckpt_path
+        )
+    except Exception as e:
+        log.error(traceback.format_exc())
+
+    log.info("Training finished!")
+
+    if cfg.trainer.fast_dev_run:
+        hydra_cfg = hydra.core.hydra_config.HydraConfig.get()
+        shutil.rmtree(hydra_cfg['runtime']['output_dir'])
 
 
 if __name__ == "__main__":
