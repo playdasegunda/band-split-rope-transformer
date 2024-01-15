@@ -1,0 +1,7 @@
+file_dir: "D:\Project"
+txt_dir: "files/"
+txt_path: null
+target: ${..train_dataset.target}
+is_training: False
+is_mono: ${..train_dataset.is_mono}
+sr: ${..train_dataset.sr}

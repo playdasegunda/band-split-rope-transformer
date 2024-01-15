@@ -1,0 +1,12 @@
+file_dir: "D:\Project"
+txt_dir: "files/"
+txt_path: null
+target: vocals
+is_training: True
+is_mono: False
+sr: 44100
+
+silent_prob: 0.0
+mix_prob: 0.0
+mix_tgt_too: False
+
