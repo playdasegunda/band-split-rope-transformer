@@ -15,14 +15,16 @@ parser.add_argument(
     '-i',
     '--input-dir',
     type=str,
-    required=True,
+    required=False,
+    default= "D://dataset//musdb",
     help="Path to directory with musdb18 dataset"
 )
 parser.add_argument(
     '-o',
     '--output-dir',
     type=str,
-    required=True,
+    required=False,
+    default= "D://Project//band-split-rope-transformer//files",
     help="Path to directory where output .txt file is saved"
 )
 parser.add_argument(
@@ -43,7 +45,7 @@ parser.add_argument(
     '--sad-cfg-path',
     type=str,
     required=False,
-    default="./conf/sad/cropgainmix.yaml",
+    default="./conf/sad/default.yaml",
     help="Path to Source Activity Detection config file"
 )
 parser.add_argument(
@@ -109,7 +111,7 @@ def main(
         subsets=subset,
         split=split,
         download=False,
-        is_wav=True,
+        is_wav=False,
     )
     # initialize Source Activity Detector
     sad_cfg = OmegaConf.load(sad_cfg_path)
@@ -141,3 +143,4 @@ if __name__ == '__main__':
         args.targets,
         args.sad_cfg_path,
     )
+
