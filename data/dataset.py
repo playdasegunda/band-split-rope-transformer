@@ -7,7 +7,7 @@ from torch.utils.data import Dataset
 import torchaudio
 from tqdm import tqdm
 
-class SourceSeparationDataset(Dataset):
+class musdbDataset(Dataset):
     """
     Dataset class for working with train/validation data from MUSDB18 dataset.
     """

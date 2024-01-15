@@ -34,7 +34,7 @@ def flac_processor(input_file):
     return out
 
 if __name__ == '__main__':
-    out = ffmpeg_processor('A Classic Education - NightOwl.stem.mp4')
+    out = ffmpeg_processor('../A Classic Education - NightOwl.stem.mp4')
     import matplotlib.pyplot as plt
     fig, axs = plt.subplots(len(out))
     for index, data in enumerate(out):
