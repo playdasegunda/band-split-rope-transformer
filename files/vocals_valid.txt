@@ -1,572 +1,767 @@
-ANiMAL - Rockshow	352800	705600
-ANiMAL - Rockshow	529200	882000
-ANiMAL - Rockshow	705600	1058400
-ANiMAL - Rockshow	882000	1234800
-ANiMAL - Rockshow	1058400	1411200
-ANiMAL - Rockshow	1234800	1587600
-ANiMAL - Rockshow	1411200	1764000
-ANiMAL - Rockshow	1587600	1940400
-ANiMAL - Rockshow	1764000	2116800
-ANiMAL - Rockshow	1940400	2293200
-ANiMAL - Rockshow	2116800	2469600
-ANiMAL - Rockshow	2293200	2646000
-ANiMAL - Rockshow	2469600	2822400
-ANiMAL - Rockshow	2646000	2998800
-ANiMAL - Rockshow	2822400	3175200
-ANiMAL - Rockshow	2998800	3351600
-ANiMAL - Rockshow	3175200	3528000
-ANiMAL - Rockshow	3351600	3704400
-ANiMAL - Rockshow	4410000	4762800
-ANiMAL - Rockshow	4586400	4939200
-ANiMAL - Rockshow	4762800	5115600
-ANiMAL - Rockshow	4939200	5292000
-ANiMAL - Rockshow	5115600	5468400
-ANiMAL - Rockshow	5292000	5644800
-ANiMAL - Rockshow	5468400	5821200
-ANiMAL - Rockshow	5644800	5997600
-ANiMAL - Rockshow	5821200	6174000
-ANiMAL - Rockshow	5997600	6350400
-ANiMAL - Rockshow	6174000	6526800
-Actions - One Minute Smile	0	352800
-Actions - One Minute Smile	176400	529200
-Actions - One Minute Smile	352800	705600
-Actions - One Minute Smile	529200	882000
-Actions - One Minute Smile	705600	1058400
-Actions - One Minute Smile	882000	1234800
-Actions - One Minute Smile	1058400	1411200
-Actions - One Minute Smile	1234800	1587600
-Actions - One Minute Smile	1411200	1764000
-Actions - One Minute Smile	1587600	1940400
-Actions - One Minute Smile	1764000	2116800
-Actions - One Minute Smile	1940400	2293200
-Actions - One Minute Smile	2116800	2469600
-Actions - One Minute Smile	2293200	2646000
-Actions - One Minute Smile	2469600	2822400
-Actions - One Minute Smile	2646000	2998800
-Actions - One Minute Smile	2822400	3175200
-Actions - One Minute Smile	2998800	3351600
-Actions - One Minute Smile	3175200	3528000
-Actions - One Minute Smile	3351600	3704400
-Actions - One Minute Smile	3528000	3880800
-Actions - One Minute Smile	3704400	4057200
-Actions - One Minute Smile	3880800	4233600
-Actions - One Minute Smile	4057200	4410000
-Actions - One Minute Smile	4233600	4586400
-Actions - One Minute Smile	4410000	4762800
-Actions - One Minute Smile	4586400	4939200
-Actions - One Minute Smile	4762800	5115600
-Actions - One Minute Smile	4939200	5292000
-Actions - One Minute Smile	5115600	5468400
-Actions - One Minute Smile	5292000	5644800
-Actions - One Minute Smile	5468400	5821200
-Actions - One Minute Smile	5644800	5997600
-Actions - One Minute Smile	5821200	6174000
-Actions - One Minute Smile	5997600	6350400
-Actions - One Minute Smile	6174000	6526800
-Actions - One Minute Smile	6350400	6703200
-Actions - One Minute Smile	6526800	6879600
-Actions - One Minute Smile	6703200	7056000
-Alexander Ross - Goodbye Bolero	352800	705600
-Alexander Ross - Goodbye Bolero	529200	882000
-Alexander Ross - Goodbye Bolero	705600	1058400
-Alexander Ross - Goodbye Bolero	882000	1234800
-Alexander Ross - Goodbye Bolero	1058400	1411200
-Alexander Ross - Goodbye Bolero	1234800	1587600
-Alexander Ross - Goodbye Bolero	1411200	1764000
-Alexander Ross - Goodbye Bolero	1587600	1940400
-Alexander Ross - Goodbye Bolero	1764000	2116800
-Alexander Ross - Goodbye Bolero	1940400	2293200
-Alexander Ross - Goodbye Bolero	2116800	2469600
-Alexander Ross - Goodbye Bolero	2293200	2646000
-Alexander Ross - Goodbye Bolero	2469600	2822400
-Alexander Ross - Goodbye Bolero	2646000	2998800
-Alexander Ross - Goodbye Bolero	2822400	3175200
-Alexander Ross - Goodbye Bolero	2998800	3351600
-Alexander Ross - Goodbye Bolero	3175200	3528000
-Alexander Ross - Goodbye Bolero	3351600	3704400
-Alexander Ross - Goodbye Bolero	3528000	3880800
-Alexander Ross - Goodbye Bolero	3704400	4057200
-Alexander Ross - Goodbye Bolero	3880800	4233600
-Alexander Ross - Goodbye Bolero	4762800	5115600
-Alexander Ross - Goodbye Bolero	4939200	5292000
-Alexander Ross - Goodbye Bolero	5115600	5468400
-Alexander Ross - Goodbye Bolero	5292000	5644800
-Alexander Ross - Goodbye Bolero	5468400	5821200
-Alexander Ross - Goodbye Bolero	5644800	5997600
-Alexander Ross - Goodbye Bolero	5821200	6174000
-Alexander Ross - Goodbye Bolero	5997600	6350400
-Alexander Ross - Goodbye Bolero	6174000	6526800
-Alexander Ross - Goodbye Bolero	6350400	6703200
-Alexander Ross - Goodbye Bolero	6526800	6879600
-Alexander Ross - Goodbye Bolero	6703200	7056000
-Alexander Ross - Goodbye Bolero	6879600	7232400
-Alexander Ross - Goodbye Bolero	7056000	7408800
-Alexander Ross - Goodbye Bolero	7232400	7585200
-Alexander Ross - Goodbye Bolero	7408800	7761600
-Alexander Ross - Goodbye Bolero	7585200	7938000
-Alexander Ross - Goodbye Bolero	7761600	8114400
-Alexander Ross - Goodbye Bolero	7938000	8290800
-Alexander Ross - Goodbye Bolero	8114400	8467200
-Alexander Ross - Goodbye Bolero	8290800	8643600
-Alexander Ross - Goodbye Bolero	11289600	11642400
-Alexander Ross - Goodbye Bolero	11466000	11818800
-Alexander Ross - Goodbye Bolero	11642400	11995200
-Alexander Ross - Goodbye Bolero	11818800	12171600
-Alexander Ross - Goodbye Bolero	11995200	12348000
-Alexander Ross - Goodbye Bolero	12171600	12524400
-Clara Berry And Wooldog - Waltz For My Victims	1587600	1940400
-Clara Berry And Wooldog - Waltz For My Victims	1764000	2116800
-Clara Berry And Wooldog - Waltz For My Victims	1940400	2293200
-Clara Berry And Wooldog - Waltz For My Victims	2116800	2469600
-Clara Berry And Wooldog - Waltz For My Victims	2293200	2646000
-Clara Berry And Wooldog - Waltz For My Victims	2469600	2822400
-Clara Berry And Wooldog - Waltz For My Victims	3175200	3528000
-Clara Berry And Wooldog - Waltz For My Victims	3351600	3704400
-Clara Berry And Wooldog - Waltz For My Victims	3528000	3880800
-Clara Berry And Wooldog - Waltz For My Victims	3704400	4057200
-Clara Berry And Wooldog - Waltz For My Victims	3880800	4233600
-Clara Berry And Wooldog - Waltz For My Victims	4057200	4410000
-Clara Berry And Wooldog - Waltz For My Victims	4233600	4586400
-Clara Berry And Wooldog - Waltz For My Victims	4410000	4762800
-Clara Berry And Wooldog - Waltz For My Victims	4586400	4939200
-Clara Berry And Wooldog - Waltz For My Victims	4762800	5115600
-Clara Berry And Wooldog - Waltz For My Victims	4939200	5292000
-Clara Berry And Wooldog - Waltz For My Victims	5115600	5468400
-Fergessen - Nos Palpitants	705600	1058400
-Fergessen - Nos Palpitants	882000	1234800
-Fergessen - Nos Palpitants	1058400	1411200
-Fergessen - Nos Palpitants	1234800	1587600
-Fergessen - Nos Palpitants	1411200	1764000
-Fergessen - Nos Palpitants	1587600	1940400
-Fergessen - Nos Palpitants	1764000	2116800
-Fergessen - Nos Palpitants	1940400	2293200
-Fergessen - Nos Palpitants	2116800	2469600
-Fergessen - Nos Palpitants	2293200	2646000
-Fergessen - Nos Palpitants	2469600	2822400
-Fergessen - Nos Palpitants	2646000	2998800
-Fergessen - Nos Palpitants	2822400	3175200
-Fergessen - Nos Palpitants	2998800	3351600
-Fergessen - Nos Palpitants	3175200	3528000
-Fergessen - Nos Palpitants	3528000	3880800
-Fergessen - Nos Palpitants	3704400	4057200
-Fergessen - Nos Palpitants	3880800	4233600
-Fergessen - Nos Palpitants	4057200	4410000
-Fergessen - Nos Palpitants	4233600	4586400
-Fergessen - Nos Palpitants	4410000	4762800
-Fergessen - Nos Palpitants	4586400	4939200
-Fergessen - Nos Palpitants	4762800	5115600
-Fergessen - Nos Palpitants	4939200	5292000
-Fergessen - Nos Palpitants	5115600	5468400
-Fergessen - Nos Palpitants	5644800	5997600
-Fergessen - Nos Palpitants	5821200	6174000
-Fergessen - Nos Palpitants	5997600	6350400
-Fergessen - Nos Palpitants	6174000	6526800
-Fergessen - Nos Palpitants	6350400	6703200
-Fergessen - Nos Palpitants	6526800	6879600
-Fergessen - Nos Palpitants	6703200	7056000
-Fergessen - Nos Palpitants	7232400	7585200
-Fergessen - Nos Palpitants	7585200	7938000
-Fergessen - Nos Palpitants	7761600	8114400
-James May - On The Line	176400	529200
-James May - On The Line	352800	705600
-James May - On The Line	529200	882000
-James May - On The Line	705600	1058400
-James May - On The Line	882000	1234800
-James May - On The Line	1058400	1411200
-James May - On The Line	1234800	1587600
-James May - On The Line	1764000	2116800
-James May - On The Line	1940400	2293200
-James May - On The Line	2116800	2469600
-James May - On The Line	2293200	2646000
-James May - On The Line	2469600	2822400
-James May - On The Line	2646000	2998800
-James May - On The Line	2822400	3175200
-James May - On The Line	2998800	3351600
-James May - On The Line	3175200	3528000
-James May - On The Line	3351600	3704400
-James May - On The Line	3528000	3880800
-James May - On The Line	3704400	4057200
-James May - On The Line	3880800	4233600
-James May - On The Line	4410000	4762800
-James May - On The Line	4586400	4939200
-James May - On The Line	4762800	5115600
-James May - On The Line	4939200	5292000
-James May - On The Line	5115600	5468400
-James May - On The Line	5292000	5644800
-James May - On The Line	6879600	7232400
-James May - On The Line	7056000	7408800
-James May - On The Line	7232400	7585200
-James May - On The Line	7408800	7761600
-James May - On The Line	7585200	7938000
-James May - On The Line	7761600	8114400
-James May - On The Line	7938000	8290800
-James May - On The Line	8114400	8467200
-James May - On The Line	8290800	8643600
-James May - On The Line	8467200	8820000
-James May - On The Line	8643600	8996400
-James May - On The Line	8820000	9172800
-James May - On The Line	8996400	9349200
-James May - On The Line	9172800	9525600
-James May - On The Line	9349200	9702000
-James May - On The Line	9525600	9878400
-James May - On The Line	9702000	10054800
-Johnny Lokke - Promises & Lies	529200	882000
-Johnny Lokke - Promises & Lies	705600	1058400
-Johnny Lokke - Promises & Lies	1587600	1940400
-Johnny Lokke - Promises & Lies	1764000	2116800
-Johnny Lokke - Promises & Lies	1940400	2293200
-Johnny Lokke - Promises & Lies	2116800	2469600
-Johnny Lokke - Promises & Lies	2293200	2646000
-Johnny Lokke - Promises & Lies	2469600	2822400
-Johnny Lokke - Promises & Lies	2646000	2998800
-Johnny Lokke - Promises & Lies	2822400	3175200
-Johnny Lokke - Promises & Lies	2998800	3351600
-Johnny Lokke - Promises & Lies	3175200	3528000
-Johnny Lokke - Promises & Lies	3351600	3704400
-Johnny Lokke - Promises & Lies	3528000	3880800
-Johnny Lokke - Promises & Lies	3704400	4057200
-Johnny Lokke - Promises & Lies	3880800	4233600
-Johnny Lokke - Promises & Lies	4057200	4410000
-Johnny Lokke - Promises & Lies	4233600	4586400
-Johnny Lokke - Promises & Lies	4410000	4762800
-Johnny Lokke - Promises & Lies	4586400	4939200
-Johnny Lokke - Promises & Lies	4762800	5115600
-Johnny Lokke - Promises & Lies	4939200	5292000
-Johnny Lokke - Promises & Lies	5115600	5468400
-Johnny Lokke - Promises & Lies	5292000	5644800
-Johnny Lokke - Promises & Lies	5468400	5821200
-Johnny Lokke - Promises & Lies	5644800	5997600
-Johnny Lokke - Promises & Lies	7938000	8290800
-Johnny Lokke - Promises & Lies	8114400	8467200
-Johnny Lokke - Promises & Lies	8290800	8643600
-Johnny Lokke - Promises & Lies	8467200	8820000
-Johnny Lokke - Promises & Lies	8643600	8996400
-Johnny Lokke - Promises & Lies	8820000	9172800
-Johnny Lokke - Promises & Lies	8996400	9349200
-Johnny Lokke - Promises & Lies	9172800	9525600
-Johnny Lokke - Promises & Lies	9349200	9702000
-Johnny Lokke - Promises & Lies	9525600	9878400
-Johnny Lokke - Promises & Lies	9702000	10054800
-Johnny Lokke - Promises & Lies	9878400	10231200
-Johnny Lokke - Promises & Lies	10584000	10936800
-Johnny Lokke - Promises & Lies	10760400	11113200
-Johnny Lokke - Promises & Lies	10936800	11289600
-Johnny Lokke - Promises & Lies	11113200	11466000
-Johnny Lokke - Promises & Lies	11289600	11642400
-Johnny Lokke - Promises & Lies	11466000	11818800
-Johnny Lokke - Promises & Lies	11642400	11995200
-Johnny Lokke - Promises & Lies	11818800	12171600
-Johnny Lokke - Promises & Lies	11995200	12348000
-Johnny Lokke - Promises & Lies	12171600	12524400
-Leaf - Summerghost	705600	1058400
-Leaf - Summerghost	882000	1234800
-Leaf - Summerghost	1058400	1411200
-Leaf - Summerghost	1234800	1587600
-Leaf - Summerghost	1764000	2116800
-Leaf - Summerghost	1940400	2293200
-Leaf - Summerghost	2116800	2469600
-Leaf - Summerghost	2293200	2646000
-Leaf - Summerghost	2646000	2998800
-Leaf - Summerghost	2822400	3175200
-Leaf - Summerghost	2998800	3351600
-Leaf - Summerghost	3175200	3528000
-Leaf - Summerghost	3351600	3704400
-Leaf - Summerghost	3528000	3880800
-Leaf - Summerghost	3704400	4057200
-Leaf - Summerghost	3880800	4233600
-Leaf - Summerghost	4057200	4410000
-Leaf - Summerghost	4233600	4586400
-Leaf - Summerghost	4762800	5115600
-Leaf - Summerghost	5292000	5644800
-Leaf - Summerghost	5997600	6350400
-Leaf - Summerghost	6174000	6526800
-Leaf - Summerghost	6350400	6703200
-Leaf - Summerghost	6526800	6879600
-Leaf - Summerghost	6703200	7056000
-Leaf - Summerghost	6879600	7232400
-Leaf - Summerghost	7056000	7408800
-Leaf - Summerghost	7232400	7585200
-Leaf - Summerghost	7408800	7761600
-Leaf - Summerghost	7585200	7938000
-Leaf - Summerghost	7761600	8114400
-Leaf - Summerghost	7938000	8290800
-Leaf - Summerghost	8114400	8467200
-Leaf - Summerghost	8290800	8643600
-Leaf - Summerghost	8467200	8820000
-Leaf - Summerghost	8643600	8996400
-Leaf - Summerghost	8820000	9172800
-Leaf - Summerghost	8996400	9349200
-Leaf - Summerghost	9172800	9525600
-Leaf - Summerghost	9349200	9702000
-Leaf - Summerghost	9525600	9878400
-Meaxic - Take A Step	1587600	1940400
-Meaxic - Take A Step	1764000	2116800
-Meaxic - Take A Step	1940400	2293200
-Meaxic - Take A Step	2116800	2469600
-Meaxic - Take A Step	2293200	2646000
-Meaxic - Take A Step	2469600	2822400
-Meaxic - Take A Step	2646000	2998800
-Meaxic - Take A Step	2822400	3175200
-Meaxic - Take A Step	2998800	3351600
-Meaxic - Take A Step	3175200	3528000
-Meaxic - Take A Step	3351600	3704400
-Meaxic - Take A Step	3528000	3880800
-Meaxic - Take A Step	3704400	4057200
-Meaxic - Take A Step	3880800	4233600
-Meaxic - Take A Step	4057200	4410000
-Meaxic - Take A Step	4233600	4586400
-Meaxic - Take A Step	4410000	4762800
-Meaxic - Take A Step	4586400	4939200
-Meaxic - Take A Step	4762800	5115600
-Meaxic - Take A Step	4939200	5292000
-Meaxic - Take A Step	5115600	5468400
-Meaxic - Take A Step	5292000	5644800
-Meaxic - Take A Step	5468400	5821200
-Meaxic - Take A Step	5644800	5997600
-Meaxic - Take A Step	5821200	6174000
-Meaxic - Take A Step	5997600	6350400
-Meaxic - Take A Step	6174000	6526800
-Meaxic - Take A Step	6350400	6703200
-Meaxic - Take A Step	6526800	6879600
-Meaxic - Take A Step	6703200	7056000
-Meaxic - Take A Step	6879600	7232400
-Meaxic - Take A Step	7056000	7408800
-Meaxic - Take A Step	8643600	8996400
-Meaxic - Take A Step	8820000	9172800
-Meaxic - Take A Step	8996400	9349200
-Meaxic - Take A Step	9172800	9525600
-Meaxic - Take A Step	9349200	9702000
-Meaxic - Take A Step	9525600	9878400
-Meaxic - Take A Step	9702000	10054800
-Meaxic - Take A Step	9878400	10231200
-Meaxic - Take A Step	10054800	10407600
-Meaxic - Take A Step	10231200	10584000
-Meaxic - Take A Step	10407600	10760400
-Meaxic - Take A Step	10584000	10936800
-Meaxic - Take A Step	11466000	11818800
-Patrick Talbot - A Reason To Leave	1234800	1587600
-Patrick Talbot - A Reason To Leave	1411200	1764000
-Patrick Talbot - A Reason To Leave	1587600	1940400
-Patrick Talbot - A Reason To Leave	1764000	2116800
-Patrick Talbot - A Reason To Leave	1940400	2293200
-Patrick Talbot - A Reason To Leave	2116800	2469600
-Patrick Talbot - A Reason To Leave	2293200	2646000
-Patrick Talbot - A Reason To Leave	2469600	2822400
-Patrick Talbot - A Reason To Leave	2646000	2998800
-Patrick Talbot - A Reason To Leave	2822400	3175200
-Patrick Talbot - A Reason To Leave	2998800	3351600
-Patrick Talbot - A Reason To Leave	3175200	3528000
-Patrick Talbot - A Reason To Leave	3351600	3704400
-Patrick Talbot - A Reason To Leave	3528000	3880800
-Patrick Talbot - A Reason To Leave	3704400	4057200
-Patrick Talbot - A Reason To Leave	3880800	4233600
-Patrick Talbot - A Reason To Leave	4057200	4410000
-Patrick Talbot - A Reason To Leave	4233600	4586400
-Patrick Talbot - A Reason To Leave	4410000	4762800
-Patrick Talbot - A Reason To Leave	4586400	4939200
-Patrick Talbot - A Reason To Leave	6526800	6879600
-Patrick Talbot - A Reason To Leave	6703200	7056000
-Patrick Talbot - A Reason To Leave	6879600	7232400
-Patrick Talbot - A Reason To Leave	7056000	7408800
-Patrick Talbot - A Reason To Leave	7232400	7585200
-Patrick Talbot - A Reason To Leave	7408800	7761600
-Patrick Talbot - A Reason To Leave	7585200	7938000
-Patrick Talbot - A Reason To Leave	7761600	8114400
-Patrick Talbot - A Reason To Leave	7938000	8290800
-Patrick Talbot - A Reason To Leave	8114400	8467200
-Patrick Talbot - A Reason To Leave	8290800	8643600
-Patrick Talbot - A Reason To Leave	8467200	8820000
-Patrick Talbot - A Reason To Leave	8643600	8996400
-Patrick Talbot - A Reason To Leave	8820000	9172800
-Skelpolu - Human Mistakes	2293200	2646000
-Skelpolu - Human Mistakes	2822400	3175200
-Skelpolu - Human Mistakes	3351600	3704400
-Skelpolu - Human Mistakes	3528000	3880800
-Skelpolu - Human Mistakes	3704400	4057200
-Skelpolu - Human Mistakes	3880800	4233600
-Skelpolu - Human Mistakes	4057200	4410000
-Skelpolu - Human Mistakes	4233600	4586400
-Skelpolu - Human Mistakes	4410000	4762800
-Skelpolu - Human Mistakes	4762800	5115600
-Skelpolu - Human Mistakes	5292000	5644800
-Skelpolu - Human Mistakes	5644800	5997600
-Skelpolu - Human Mistakes	5821200	6174000
-Skelpolu - Human Mistakes	5997600	6350400
-Skelpolu - Human Mistakes	6174000	6526800
-Skelpolu - Human Mistakes	6703200	7056000
-Skelpolu - Human Mistakes	7232400	7585200
-Skelpolu - Human Mistakes	7408800	7761600
-Skelpolu - Human Mistakes	7585200	7938000
-Skelpolu - Human Mistakes	7761600	8114400
-Skelpolu - Human Mistakes	7938000	8290800
-Skelpolu - Human Mistakes	8114400	8467200
-Skelpolu - Human Mistakes	8290800	8643600
-Skelpolu - Human Mistakes	8643600	8996400
-Skelpolu - Human Mistakes	9172800	9525600
-Skelpolu - Human Mistakes	9525600	9878400
-Skelpolu - Human Mistakes	9702000	10054800
-Skelpolu - Human Mistakes	9878400	10231200
-Skelpolu - Human Mistakes	10054800	10407600
-Skelpolu - Human Mistakes	10231200	10584000
-Skelpolu - Human Mistakes	10407600	10760400
-Skelpolu - Human Mistakes	10584000	10936800
-Skelpolu - Human Mistakes	10760400	11113200
-Skelpolu - Human Mistakes	10936800	11289600
-Skelpolu - Human Mistakes	11113200	11466000
-Skelpolu - Human Mistakes	11289600	11642400
-Skelpolu - Human Mistakes	11466000	11818800
-Skelpolu - Human Mistakes	11642400	11995200
-Skelpolu - Human Mistakes	11818800	12171600
-Skelpolu - Human Mistakes	11995200	12348000
-Skelpolu - Human Mistakes	12171600	12524400
-Skelpolu - Human Mistakes	12348000	12700800
-Skelpolu - Human Mistakes	12524400	12877200
-Skelpolu - Human Mistakes	12700800	13053600
-Skelpolu - Human Mistakes	12877200	13230000
-Skelpolu - Human Mistakes	13053600	13406400
-Skelpolu - Human Mistakes	13230000	13582800
-Skelpolu - Human Mistakes	13406400	13759200
-Traffic Experiment - Sirens	0	352800
-Traffic Experiment - Sirens	176400	529200
-Traffic Experiment - Sirens	352800	705600
-Traffic Experiment - Sirens	529200	882000
-Traffic Experiment - Sirens	705600	1058400
-Traffic Experiment - Sirens	882000	1234800
-Traffic Experiment - Sirens	1058400	1411200
-Traffic Experiment - Sirens	1234800	1587600
-Traffic Experiment - Sirens	2116800	2469600
-Traffic Experiment - Sirens	2293200	2646000
-Traffic Experiment - Sirens	2469600	2822400
-Traffic Experiment - Sirens	2646000	2998800
-Traffic Experiment - Sirens	2822400	3175200
-Traffic Experiment - Sirens	2998800	3351600
-Traffic Experiment - Sirens	3175200	3528000
-Traffic Experiment - Sirens	3351600	3704400
-Traffic Experiment - Sirens	3528000	3880800
-Traffic Experiment - Sirens	3704400	4057200
-Traffic Experiment - Sirens	3880800	4233600
-Traffic Experiment - Sirens	4057200	4410000
-Traffic Experiment - Sirens	4233600	4586400
-Traffic Experiment - Sirens	4410000	4762800
-Traffic Experiment - Sirens	4586400	4939200
-Traffic Experiment - Sirens	4762800	5115600
-Traffic Experiment - Sirens	4939200	5292000
-Traffic Experiment - Sirens	5821200	6174000
-Traffic Experiment - Sirens	5997600	6350400
-Traffic Experiment - Sirens	6174000	6526800
-Traffic Experiment - Sirens	6350400	6703200
-Traffic Experiment - Sirens	6526800	6879600
-Traffic Experiment - Sirens	6703200	7056000
-Traffic Experiment - Sirens	6879600	7232400
-Traffic Experiment - Sirens	7056000	7408800
-Traffic Experiment - Sirens	7232400	7585200
-Traffic Experiment - Sirens	7408800	7761600
-Traffic Experiment - Sirens	7585200	7938000
-Traffic Experiment - Sirens	7761600	8114400
-Traffic Experiment - Sirens	7938000	8290800
-Traffic Experiment - Sirens	8114400	8467200
-Traffic Experiment - Sirens	8290800	8643600
-Traffic Experiment - Sirens	8467200	8820000
-Traffic Experiment - Sirens	8643600	8996400
-Traffic Experiment - Sirens	8820000	9172800
-Traffic Experiment - Sirens	8996400	9349200
-Traffic Experiment - Sirens	9172800	9525600
-Traffic Experiment - Sirens	9349200	9702000
-Traffic Experiment - Sirens	9525600	9878400
-Traffic Experiment - Sirens	9702000	10054800
-Traffic Experiment - Sirens	9878400	10231200
-Traffic Experiment - Sirens	10054800	10407600
-Triviul - Angelsaint	176400	529200
-Triviul - Angelsaint	352800	705600
-Triviul - Angelsaint	529200	882000
-Triviul - Angelsaint	705600	1058400
-Triviul - Angelsaint	882000	1234800
-Triviul - Angelsaint	1058400	1411200
-Triviul - Angelsaint	1234800	1587600
-Triviul - Angelsaint	1411200	1764000
-Triviul - Angelsaint	1587600	1940400
-Triviul - Angelsaint	1764000	2116800
-Triviul - Angelsaint	1940400	2293200
-Triviul - Angelsaint	2116800	2469600
-Triviul - Angelsaint	2293200	2646000
-Triviul - Angelsaint	2469600	2822400
-Triviul - Angelsaint	2646000	2998800
-Triviul - Angelsaint	2822400	3175200
-Triviul - Angelsaint	2998800	3351600
-Triviul - Angelsaint	3175200	3528000
-Triviul - Angelsaint	3351600	3704400
-Triviul - Angelsaint	3528000	3880800
-Triviul - Angelsaint	3704400	4057200
-Triviul - Angelsaint	3880800	4233600
-Triviul - Angelsaint	4057200	4410000
-Triviul - Angelsaint	4233600	4586400
-Triviul - Angelsaint	4410000	4762800
-Triviul - Angelsaint	4586400	4939200
-Triviul - Angelsaint	4762800	5115600
-Triviul - Angelsaint	4939200	5292000
-Triviul - Angelsaint	5115600	5468400
-Triviul - Angelsaint	5292000	5644800
-Triviul - Angelsaint	5468400	5821200
-Triviul - Angelsaint	5644800	5997600
-Triviul - Angelsaint	5821200	6174000
-Triviul - Angelsaint	5997600	6350400
-Triviul - Angelsaint	6174000	6526800
-Triviul - Angelsaint	6350400	6703200
-Triviul - Angelsaint	7761600	8114400
-Triviul - Angelsaint	7938000	8290800
-Triviul - Angelsaint	8114400	8467200
-Triviul - Angelsaint	8290800	8643600
-Triviul - Angelsaint	8467200	8820000
-Triviul - Angelsaint	8643600	8996400
-Triviul - Angelsaint	8820000	9172800
-Triviul - Angelsaint	8996400	9349200
-Triviul - Angelsaint	9172800	9525600
-Triviul - Angelsaint	9349200	9702000
-Triviul - Angelsaint	9525600	9878400
-Triviul - Angelsaint	9702000	10054800
-Young Griffo - Pennies	882000	1234800
-Young Griffo - Pennies	1058400	1411200
-Young Griffo - Pennies	1234800	1587600
-Young Griffo - Pennies	1411200	1764000
-Young Griffo - Pennies	1587600	1940400
-Young Griffo - Pennies	1764000	2116800
-Young Griffo - Pennies	1940400	2293200
-Young Griffo - Pennies	2116800	2469600
-Young Griffo - Pennies	2293200	2646000
-Young Griffo - Pennies	2469600	2822400
-Young Griffo - Pennies	2646000	2998800
-Young Griffo - Pennies	2822400	3175200
-Young Griffo - Pennies	2998800	3351600
-Young Griffo - Pennies	3175200	3528000
-Young Griffo - Pennies	3351600	3704400
-Young Griffo - Pennies	3528000	3880800
-Young Griffo - Pennies	3704400	4057200
-Young Griffo - Pennies	3880800	4233600
-Young Griffo - Pennies	4057200	4410000
-Young Griffo - Pennies	4233600	4586400
-Young Griffo - Pennies	4410000	4762800
-Young Griffo - Pennies	4586400	4939200
-Young Griffo - Pennies	4762800	5115600
-Young Griffo - Pennies	4939200	5292000
-Young Griffo - Pennies	5115600	5468400
-Young Griffo - Pennies	5292000	5644800
-Young Griffo - Pennies	5468400	5821200
-Young Griffo - Pennies	5644800	5997600
-Young Griffo - Pennies	5821200	6174000
-Young Griffo - Pennies	5997600	6350400
-Young Griffo - Pennies	6174000	6526800
-Young Griffo - Pennies	6350400	6703200
-Young Griffo - Pennies	6526800	6879600
-Young Griffo - Pennies	6703200	7056000
-Young Griffo - Pennies	6879600	7232400
-Young Griffo - Pennies	7056000	7408800
-Young Griffo - Pennies	7232400	7585200
-Young Griffo - Pennies	7408800	7761600
-Young Griffo - Pennies	7585200	7938000
-Young Griffo - Pennies	9525600	9878400
-Young Griffo - Pennies	9702000	10054800
-Young Griffo - Pennies	9878400	10231200
-Young Griffo - Pennies	10054800	10407600
-Young Griffo - Pennies	10231200	10584000
-Young Griffo - Pennies	10407600	10760400
-Young Griffo - Pennies	10584000	10936800
+ANiMAL - Rockshow	393216	655360
+ANiMAL - Rockshow	524288	786432
+ANiMAL - Rockshow	655360	917504
+ANiMAL - Rockshow	786432	1048576
+ANiMAL - Rockshow	917504	1179648
+ANiMAL - Rockshow	1048576	1310720
+ANiMAL - Rockshow	1179648	1441792
+ANiMAL - Rockshow	1310720	1572864
+ANiMAL - Rockshow	1441792	1703936
+ANiMAL - Rockshow	1572864	1835008
+ANiMAL - Rockshow	1703936	1966080
+ANiMAL - Rockshow	1835008	2097152
+ANiMAL - Rockshow	1966080	2228224
+ANiMAL - Rockshow	2097152	2359296
+ANiMAL - Rockshow	2228224	2490368
+ANiMAL - Rockshow	2359296	2621440
+ANiMAL - Rockshow	2490368	2752512
+ANiMAL - Rockshow	2621440	2883584
+ANiMAL - Rockshow	2752512	3014656
+ANiMAL - Rockshow	2883584	3145728
+ANiMAL - Rockshow	3014656	3276800
+ANiMAL - Rockshow	3145728	3407872
+ANiMAL - Rockshow	3276800	3538944
+ANiMAL - Rockshow	3407872	3670016
+ANiMAL - Rockshow	3538944	3801088
+ANiMAL - Rockshow	4456448	4718592
+ANiMAL - Rockshow	4587520	4849664
+ANiMAL - Rockshow	4718592	4980736
+ANiMAL - Rockshow	4849664	5111808
+ANiMAL - Rockshow	4980736	5242880
+ANiMAL - Rockshow	5111808	5373952
+ANiMAL - Rockshow	5242880	5505024
+ANiMAL - Rockshow	5373952	5636096
+ANiMAL - Rockshow	5505024	5767168
+ANiMAL - Rockshow	5636096	5898240
+ANiMAL - Rockshow	5767168	6029312
+ANiMAL - Rockshow	5898240	6160384
+ANiMAL - Rockshow	6029312	6291456
+ANiMAL - Rockshow	6160384	6422528
+ANiMAL - Rockshow	6291456	6553600
+ANiMAL - Rockshow	6422528	6684672
+Actions - One Minute Smile	0	262144
+Actions - One Minute Smile	131072	393216
+Actions - One Minute Smile	262144	524288
+Actions - One Minute Smile	393216	655360
+Actions - One Minute Smile	524288	786432
+Actions - One Minute Smile	655360	917504
+Actions - One Minute Smile	786432	1048576
+Actions - One Minute Smile	917504	1179648
+Actions - One Minute Smile	1048576	1310720
+Actions - One Minute Smile	1179648	1441792
+Actions - One Minute Smile	1310720	1572864
+Actions - One Minute Smile	1441792	1703936
+Actions - One Minute Smile	1572864	1835008
+Actions - One Minute Smile	1703936	1966080
+Actions - One Minute Smile	1835008	2097152
+Actions - One Minute Smile	1966080	2228224
+Actions - One Minute Smile	2097152	2359296
+Actions - One Minute Smile	2228224	2490368
+Actions - One Minute Smile	2359296	2621440
+Actions - One Minute Smile	2490368	2752512
+Actions - One Minute Smile	2621440	2883584
+Actions - One Minute Smile	2752512	3014656
+Actions - One Minute Smile	2883584	3145728
+Actions - One Minute Smile	3014656	3276800
+Actions - One Minute Smile	3145728	3407872
+Actions - One Minute Smile	3276800	3538944
+Actions - One Minute Smile	3407872	3670016
+Actions - One Minute Smile	3538944	3801088
+Actions - One Minute Smile	3670016	3932160
+Actions - One Minute Smile	3801088	4063232
+Actions - One Minute Smile	3932160	4194304
+Actions - One Minute Smile	4063232	4325376
+Actions - One Minute Smile	4194304	4456448
+Actions - One Minute Smile	4325376	4587520
+Actions - One Minute Smile	4456448	4718592
+Actions - One Minute Smile	4587520	4849664
+Actions - One Minute Smile	4718592	4980736
+Actions - One Minute Smile	4849664	5111808
+Actions - One Minute Smile	4980736	5242880
+Actions - One Minute Smile	5111808	5373952
+Actions - One Minute Smile	5242880	5505024
+Actions - One Minute Smile	5373952	5636096
+Actions - One Minute Smile	5505024	5767168
+Actions - One Minute Smile	5636096	5898240
+Actions - One Minute Smile	5767168	6029312
+Actions - One Minute Smile	5898240	6160384
+Actions - One Minute Smile	6029312	6291456
+Actions - One Minute Smile	6160384	6422528
+Actions - One Minute Smile	6291456	6553600
+Actions - One Minute Smile	6422528	6684672
+Actions - One Minute Smile	6553600	6815744
+Actions - One Minute Smile	6684672	6946816
+Actions - One Minute Smile	6815744	7077888
+Alexander Ross - Goodbye Bolero	393216	655360
+Alexander Ross - Goodbye Bolero	524288	786432
+Alexander Ross - Goodbye Bolero	655360	917504
+Alexander Ross - Goodbye Bolero	786432	1048576
+Alexander Ross - Goodbye Bolero	917504	1179648
+Alexander Ross - Goodbye Bolero	1048576	1310720
+Alexander Ross - Goodbye Bolero	1179648	1441792
+Alexander Ross - Goodbye Bolero	1310720	1572864
+Alexander Ross - Goodbye Bolero	1441792	1703936
+Alexander Ross - Goodbye Bolero	1572864	1835008
+Alexander Ross - Goodbye Bolero	1703936	1966080
+Alexander Ross - Goodbye Bolero	1835008	2097152
+Alexander Ross - Goodbye Bolero	1966080	2228224
+Alexander Ross - Goodbye Bolero	2097152	2359296
+Alexander Ross - Goodbye Bolero	2228224	2490368
+Alexander Ross - Goodbye Bolero	2359296	2621440
+Alexander Ross - Goodbye Bolero	2490368	2752512
+Alexander Ross - Goodbye Bolero	2621440	2883584
+Alexander Ross - Goodbye Bolero	2752512	3014656
+Alexander Ross - Goodbye Bolero	2883584	3145728
+Alexander Ross - Goodbye Bolero	3014656	3276800
+Alexander Ross - Goodbye Bolero	3145728	3407872
+Alexander Ross - Goodbye Bolero	3276800	3538944
+Alexander Ross - Goodbye Bolero	3407872	3670016
+Alexander Ross - Goodbye Bolero	3538944	3801088
+Alexander Ross - Goodbye Bolero	3670016	3932160
+Alexander Ross - Goodbye Bolero	3801088	4063232
+Alexander Ross - Goodbye Bolero	3932160	4194304
+Alexander Ross - Goodbye Bolero	4849664	5111808
+Alexander Ross - Goodbye Bolero	4980736	5242880
+Alexander Ross - Goodbye Bolero	5111808	5373952
+Alexander Ross - Goodbye Bolero	5242880	5505024
+Alexander Ross - Goodbye Bolero	5373952	5636096
+Alexander Ross - Goodbye Bolero	5505024	5767168
+Alexander Ross - Goodbye Bolero	5636096	5898240
+Alexander Ross - Goodbye Bolero	5767168	6029312
+Alexander Ross - Goodbye Bolero	5898240	6160384
+Alexander Ross - Goodbye Bolero	6029312	6291456
+Alexander Ross - Goodbye Bolero	6160384	6422528
+Alexander Ross - Goodbye Bolero	6291456	6553600
+Alexander Ross - Goodbye Bolero	6422528	6684672
+Alexander Ross - Goodbye Bolero	6553600	6815744
+Alexander Ross - Goodbye Bolero	6684672	6946816
+Alexander Ross - Goodbye Bolero	6815744	7077888
+Alexander Ross - Goodbye Bolero	6946816	7208960
+Alexander Ross - Goodbye Bolero	7077888	7340032
+Alexander Ross - Goodbye Bolero	7208960	7471104
+Alexander Ross - Goodbye Bolero	7340032	7602176
+Alexander Ross - Goodbye Bolero	7471104	7733248
+Alexander Ross - Goodbye Bolero	7602176	7864320
+Alexander Ross - Goodbye Bolero	7733248	7995392
+Alexander Ross - Goodbye Bolero	7864320	8126464
+Alexander Ross - Goodbye Bolero	7995392	8257536
+Alexander Ross - Goodbye Bolero	8126464	8388608
+Alexander Ross - Goodbye Bolero	8257536	8519680
+Alexander Ross - Goodbye Bolero	11272192	11534336
+Alexander Ross - Goodbye Bolero	11403264	11665408
+Alexander Ross - Goodbye Bolero	11534336	11796480
+Alexander Ross - Goodbye Bolero	11665408	11927552
+Alexander Ross - Goodbye Bolero	11796480	12058624
+Alexander Ross - Goodbye Bolero	11927552	12189696
+Alexander Ross - Goodbye Bolero	12058624	12320768
+Alexander Ross - Goodbye Bolero	12189696	12451840
+Clara Berry And Wooldog - Waltz For My Victims	1703936	1966080
+Clara Berry And Wooldog - Waltz For My Victims	1835008	2097152
+Clara Berry And Wooldog - Waltz For My Victims	1966080	2228224
+Clara Berry And Wooldog - Waltz For My Victims	2097152	2359296
+Clara Berry And Wooldog - Waltz For My Victims	2228224	2490368
+Clara Berry And Wooldog - Waltz For My Victims	2359296	2621440
+Clara Berry And Wooldog - Waltz For My Victims	2490368	2752512
+Clara Berry And Wooldog - Waltz For My Victims	2621440	2883584
+Clara Berry And Wooldog - Waltz For My Victims	3276800	3538944
+Clara Berry And Wooldog - Waltz For My Victims	3407872	3670016
+Clara Berry And Wooldog - Waltz For My Victims	3538944	3801088
+Clara Berry And Wooldog - Waltz For My Victims	3670016	3932160
+Clara Berry And Wooldog - Waltz For My Victims	3801088	4063232
+Clara Berry And Wooldog - Waltz For My Victims	3932160	4194304
+Clara Berry And Wooldog - Waltz For My Victims	4063232	4325376
+Clara Berry And Wooldog - Waltz For My Victims	4194304	4456448
+Clara Berry And Wooldog - Waltz For My Victims	4325376	4587520
+Clara Berry And Wooldog - Waltz For My Victims	4456448	4718592
+Clara Berry And Wooldog - Waltz For My Victims	4587520	4849664
+Clara Berry And Wooldog - Waltz For My Victims	4718592	4980736
+Clara Berry And Wooldog - Waltz For My Victims	4849664	5111808
+Clara Berry And Wooldog - Waltz For My Victims	4980736	5242880
+Clara Berry And Wooldog - Waltz For My Victims	5111808	5373952
+Clara Berry And Wooldog - Waltz For My Victims	5242880	5505024
+Fergessen - Nos Palpitants	655360	917504
+Fergessen - Nos Palpitants	786432	1048576
+Fergessen - Nos Palpitants	1048576	1310720
+Fergessen - Nos Palpitants	1179648	1441792
+Fergessen - Nos Palpitants	1310720	1572864
+Fergessen - Nos Palpitants	1441792	1703936
+Fergessen - Nos Palpitants	1572864	1835008
+Fergessen - Nos Palpitants	1703936	1966080
+Fergessen - Nos Palpitants	1966080	2228224
+Fergessen - Nos Palpitants	2097152	2359296
+Fergessen - Nos Palpitants	2228224	2490368
+Fergessen - Nos Palpitants	2490368	2752512
+Fergessen - Nos Palpitants	2621440	2883584
+Fergessen - Nos Palpitants	2752512	3014656
+Fergessen - Nos Palpitants	2883584	3145728
+Fergessen - Nos Palpitants	3014656	3276800
+Fergessen - Nos Palpitants	3145728	3407872
+Fergessen - Nos Palpitants	3276800	3538944
+Fergessen - Nos Palpitants	3670016	3932160
+Fergessen - Nos Palpitants	3801088	4063232
+Fergessen - Nos Palpitants	3932160	4194304
+Fergessen - Nos Palpitants	4063232	4325376
+Fergessen - Nos Palpitants	4194304	4456448
+Fergessen - Nos Palpitants	4325376	4587520
+Fergessen - Nos Palpitants	4456448	4718592
+Fergessen - Nos Palpitants	4587520	4849664
+Fergessen - Nos Palpitants	4718592	4980736
+Fergessen - Nos Palpitants	4849664	5111808
+Fergessen - Nos Palpitants	4980736	5242880
+Fergessen - Nos Palpitants	5111808	5373952
+Fergessen - Nos Palpitants	5242880	5505024
+Fergessen - Nos Palpitants	5373952	5636096
+Fergessen - Nos Palpitants	5636096	5898240
+Fergessen - Nos Palpitants	5767168	6029312
+Fergessen - Nos Palpitants	5898240	6160384
+Fergessen - Nos Palpitants	6029312	6291456
+Fergessen - Nos Palpitants	6160384	6422528
+Fergessen - Nos Palpitants	6291456	6553600
+Fergessen - Nos Palpitants	6422528	6684672
+Fergessen - Nos Palpitants	6553600	6815744
+Fergessen - Nos Palpitants	6684672	6946816
+Fergessen - Nos Palpitants	7208960	7471104
+Fergessen - Nos Palpitants	7733248	7995392
+James May - On The Line	262144	524288
+James May - On The Line	393216	655360
+James May - On The Line	524288	786432
+James May - On The Line	655360	917504
+James May - On The Line	786432	1048576
+James May - On The Line	917504	1179648
+James May - On The Line	1048576	1310720
+James May - On The Line	1179648	1441792
+James May - On The Line	1310720	1572864
+James May - On The Line	1703936	1966080
+James May - On The Line	1835008	2097152
+James May - On The Line	1966080	2228224
+James May - On The Line	2097152	2359296
+James May - On The Line	2228224	2490368
+James May - On The Line	2359296	2621440
+James May - On The Line	2490368	2752512
+James May - On The Line	2621440	2883584
+James May - On The Line	2752512	3014656
+James May - On The Line	2883584	3145728
+James May - On The Line	3014656	3276800
+James May - On The Line	3145728	3407872
+James May - On The Line	3276800	3538944
+James May - On The Line	3407872	3670016
+James May - On The Line	3538944	3801088
+James May - On The Line	3670016	3932160
+James May - On The Line	3801088	4063232
+James May - On The Line	3932160	4194304
+James May - On The Line	4325376	4587520
+James May - On The Line	4456448	4718592
+James May - On The Line	4587520	4849664
+James May - On The Line	4718592	4980736
+James May - On The Line	4849664	5111808
+James May - On The Line	4980736	5242880
+James May - On The Line	5111808	5373952
+James May - On The Line	5242880	5505024
+James May - On The Line	5373952	5636096
+James May - On The Line	6946816	7208960
+James May - On The Line	7077888	7340032
+James May - On The Line	7208960	7471104
+James May - On The Line	7340032	7602176
+James May - On The Line	7471104	7733248
+James May - On The Line	7602176	7864320
+James May - On The Line	7733248	7995392
+James May - On The Line	7864320	8126464
+James May - On The Line	7995392	8257536
+James May - On The Line	8126464	8388608
+James May - On The Line	8257536	8519680
+James May - On The Line	8388608	8650752
+James May - On The Line	8519680	8781824
+James May - On The Line	8650752	8912896
+James May - On The Line	8781824	9043968
+James May - On The Line	8912896	9175040
+James May - On The Line	9043968	9306112
+James May - On The Line	9175040	9437184
+James May - On The Line	9306112	9568256
+James May - On The Line	9437184	9699328
+James May - On The Line	9568256	9830400
+James May - On The Line	9699328	9961472
+James May - On The Line	9830400	10092544
+Johnny Lokke - Promises & Lies	655360	917504
+Johnny Lokke - Promises & Lies	786432	1048576
+Johnny Lokke - Promises & Lies	1703936	1966080
+Johnny Lokke - Promises & Lies	1835008	2097152
+Johnny Lokke - Promises & Lies	1966080	2228224
+Johnny Lokke - Promises & Lies	2097152	2359296
+Johnny Lokke - Promises & Lies	2228224	2490368
+Johnny Lokke - Promises & Lies	2359296	2621440
+Johnny Lokke - Promises & Lies	2490368	2752512
+Johnny Lokke - Promises & Lies	2621440	2883584
+Johnny Lokke - Promises & Lies	2752512	3014656
+Johnny Lokke - Promises & Lies	2883584	3145728
+Johnny Lokke - Promises & Lies	3014656	3276800
+Johnny Lokke - Promises & Lies	3145728	3407872
+Johnny Lokke - Promises & Lies	3276800	3538944
+Johnny Lokke - Promises & Lies	3407872	3670016
+Johnny Lokke - Promises & Lies	3538944	3801088
+Johnny Lokke - Promises & Lies	3670016	3932160
+Johnny Lokke - Promises & Lies	3801088	4063232
+Johnny Lokke - Promises & Lies	3932160	4194304
+Johnny Lokke - Promises & Lies	4063232	4325376
+Johnny Lokke - Promises & Lies	4194304	4456448
+Johnny Lokke - Promises & Lies	4325376	4587520
+Johnny Lokke - Promises & Lies	4456448	4718592
+Johnny Lokke - Promises & Lies	4587520	4849664
+Johnny Lokke - Promises & Lies	4718592	4980736
+Johnny Lokke - Promises & Lies	4849664	5111808
+Johnny Lokke - Promises & Lies	4980736	5242880
+Johnny Lokke - Promises & Lies	5111808	5373952
+Johnny Lokke - Promises & Lies	5242880	5505024
+Johnny Lokke - Promises & Lies	5373952	5636096
+Johnny Lokke - Promises & Lies	5505024	5767168
+Johnny Lokke - Promises & Lies	5636096	5898240
+Johnny Lokke - Promises & Lies	5767168	6029312
+Johnny Lokke - Promises & Lies	7995392	8257536
+Johnny Lokke - Promises & Lies	8126464	8388608
+Johnny Lokke - Promises & Lies	8257536	8519680
+Johnny Lokke - Promises & Lies	8388608	8650752
+Johnny Lokke - Promises & Lies	8519680	8781824
+Johnny Lokke - Promises & Lies	8650752	8912896
+Johnny Lokke - Promises & Lies	8781824	9043968
+Johnny Lokke - Promises & Lies	8912896	9175040
+Johnny Lokke - Promises & Lies	9043968	9306112
+Johnny Lokke - Promises & Lies	9175040	9437184
+Johnny Lokke - Promises & Lies	9306112	9568256
+Johnny Lokke - Promises & Lies	9437184	9699328
+Johnny Lokke - Promises & Lies	9568256	9830400
+Johnny Lokke - Promises & Lies	9699328	9961472
+Johnny Lokke - Promises & Lies	9830400	10092544
+Johnny Lokke - Promises & Lies	9961472	10223616
+Johnny Lokke - Promises & Lies	10616832	10878976
+Johnny Lokke - Promises & Lies	10747904	11010048
+Johnny Lokke - Promises & Lies	10878976	11141120
+Johnny Lokke - Promises & Lies	11010048	11272192
+Johnny Lokke - Promises & Lies	11141120	11403264
+Johnny Lokke - Promises & Lies	11272192	11534336
+Johnny Lokke - Promises & Lies	11403264	11665408
+Johnny Lokke - Promises & Lies	11534336	11796480
+Johnny Lokke - Promises & Lies	11665408	11927552
+Johnny Lokke - Promises & Lies	11796480	12058624
+Johnny Lokke - Promises & Lies	11927552	12189696
+Johnny Lokke - Promises & Lies	12058624	12320768
+Johnny Lokke - Promises & Lies	12189696	12451840
+Leaf - Summerghost	786432	1048576
+Leaf - Summerghost	917504	1179648
+Leaf - Summerghost	1048576	1310720
+Leaf - Summerghost	1179648	1441792
+Leaf - Summerghost	1310720	1572864
+Leaf - Summerghost	1703936	1966080
+Leaf - Summerghost	1835008	2097152
+Leaf - Summerghost	1966080	2228224
+Leaf - Summerghost	2097152	2359296
+Leaf - Summerghost	2228224	2490368
+Leaf - Summerghost	2359296	2621440
+Leaf - Summerghost	2752512	3014656
+Leaf - Summerghost	2883584	3145728
+Leaf - Summerghost	3014656	3276800
+Leaf - Summerghost	3145728	3407872
+Leaf - Summerghost	3276800	3538944
+Leaf - Summerghost	3407872	3670016
+Leaf - Summerghost	3538944	3801088
+Leaf - Summerghost	3670016	3932160
+Leaf - Summerghost	3801088	4063232
+Leaf - Summerghost	3932160	4194304
+Leaf - Summerghost	4063232	4325376
+Leaf - Summerghost	4194304	4456448
+Leaf - Summerghost	4325376	4587520
+Leaf - Summerghost	4849664	5111808
+Leaf - Summerghost	4980736	5242880
+Leaf - Summerghost	5373952	5636096
+Leaf - Summerghost	5505024	5767168
+Leaf - Summerghost	6160384	6422528
+Leaf - Summerghost	6291456	6553600
+Leaf - Summerghost	6422528	6684672
+Leaf - Summerghost	6553600	6815744
+Leaf - Summerghost	6684672	6946816
+Leaf - Summerghost	6815744	7077888
+Leaf - Summerghost	6946816	7208960
+Leaf - Summerghost	7077888	7340032
+Leaf - Summerghost	7208960	7471104
+Leaf - Summerghost	7340032	7602176
+Leaf - Summerghost	7471104	7733248
+Leaf - Summerghost	7602176	7864320
+Leaf - Summerghost	7733248	7995392
+Leaf - Summerghost	7864320	8126464
+Leaf - Summerghost	7995392	8257536
+Leaf - Summerghost	8126464	8388608
+Leaf - Summerghost	8257536	8519680
+Leaf - Summerghost	8388608	8650752
+Leaf - Summerghost	8519680	8781824
+Leaf - Summerghost	8650752	8912896
+Leaf - Summerghost	8781824	9043968
+Leaf - Summerghost	8912896	9175040
+Leaf - Summerghost	9043968	9306112
+Leaf - Summerghost	9175040	9437184
+Leaf - Summerghost	9306112	9568256
+Leaf - Summerghost	9437184	9699328
+Leaf - Summerghost	9568256	9830400
+Meaxic - Take A Step	1703936	1966080
+Meaxic - Take A Step	1835008	2097152
+Meaxic - Take A Step	1966080	2228224
+Meaxic - Take A Step	2097152	2359296
+Meaxic - Take A Step	2228224	2490368
+Meaxic - Take A Step	2359296	2621440
+Meaxic - Take A Step	2490368	2752512
+Meaxic - Take A Step	2621440	2883584
+Meaxic - Take A Step	2752512	3014656
+Meaxic - Take A Step	2883584	3145728
+Meaxic - Take A Step	3014656	3276800
+Meaxic - Take A Step	3145728	3407872
+Meaxic - Take A Step	3276800	3538944
+Meaxic - Take A Step	3407872	3670016
+Meaxic - Take A Step	3538944	3801088
+Meaxic - Take A Step	3670016	3932160
+Meaxic - Take A Step	3801088	4063232
+Meaxic - Take A Step	3932160	4194304
+Meaxic - Take A Step	4063232	4325376
+Meaxic - Take A Step	4194304	4456448
+Meaxic - Take A Step	4325376	4587520
+Meaxic - Take A Step	4456448	4718592
+Meaxic - Take A Step	4587520	4849664
+Meaxic - Take A Step	4718592	4980736
+Meaxic - Take A Step	4849664	5111808
+Meaxic - Take A Step	4980736	5242880
+Meaxic - Take A Step	5111808	5373952
+Meaxic - Take A Step	5242880	5505024
+Meaxic - Take A Step	5373952	5636096
+Meaxic - Take A Step	5505024	5767168
+Meaxic - Take A Step	5636096	5898240
+Meaxic - Take A Step	5767168	6029312
+Meaxic - Take A Step	5898240	6160384
+Meaxic - Take A Step	6029312	6291456
+Meaxic - Take A Step	6160384	6422528
+Meaxic - Take A Step	6291456	6553600
+Meaxic - Take A Step	6422528	6684672
+Meaxic - Take A Step	6553600	6815744
+Meaxic - Take A Step	6684672	6946816
+Meaxic - Take A Step	6815744	7077888
+Meaxic - Take A Step	6946816	7208960
+Meaxic - Take A Step	7077888	7340032
+Meaxic - Take A Step	7208960	7471104
+Meaxic - Take A Step	8650752	8912896
+Meaxic - Take A Step	8781824	9043968
+Meaxic - Take A Step	8912896	9175040
+Meaxic - Take A Step	9043968	9306112
+Meaxic - Take A Step	9175040	9437184
+Meaxic - Take A Step	9306112	9568256
+Meaxic - Take A Step	9437184	9699328
+Meaxic - Take A Step	9568256	9830400
+Meaxic - Take A Step	9699328	9961472
+Meaxic - Take A Step	9830400	10092544
+Meaxic - Take A Step	9961472	10223616
+Meaxic - Take A Step	10092544	10354688
+Meaxic - Take A Step	10223616	10485760
+Meaxic - Take A Step	10354688	10616832
+Meaxic - Take A Step	10485760	10747904
+Meaxic - Take A Step	10616832	10878976
+Meaxic - Take A Step	11403264	11665408
+Meaxic - Take A Step	11534336	11796480
+Patrick Talbot - A Reason To Leave	1310720	1572864
+Patrick Talbot - A Reason To Leave	1441792	1703936
+Patrick Talbot - A Reason To Leave	1572864	1835008
+Patrick Talbot - A Reason To Leave	1703936	1966080
+Patrick Talbot - A Reason To Leave	1835008	2097152
+Patrick Talbot - A Reason To Leave	1966080	2228224
+Patrick Talbot - A Reason To Leave	2097152	2359296
+Patrick Talbot - A Reason To Leave	2228224	2490368
+Patrick Talbot - A Reason To Leave	2359296	2621440
+Patrick Talbot - A Reason To Leave	2490368	2752512
+Patrick Talbot - A Reason To Leave	2621440	2883584
+Patrick Talbot - A Reason To Leave	2752512	3014656
+Patrick Talbot - A Reason To Leave	2883584	3145728
+Patrick Talbot - A Reason To Leave	3014656	3276800
+Patrick Talbot - A Reason To Leave	3145728	3407872
+Patrick Talbot - A Reason To Leave	3276800	3538944
+Patrick Talbot - A Reason To Leave	3407872	3670016
+Patrick Talbot - A Reason To Leave	3538944	3801088
+Patrick Talbot - A Reason To Leave	3670016	3932160
+Patrick Talbot - A Reason To Leave	3801088	4063232
+Patrick Talbot - A Reason To Leave	3932160	4194304
+Patrick Talbot - A Reason To Leave	4063232	4325376
+Patrick Talbot - A Reason To Leave	4194304	4456448
+Patrick Talbot - A Reason To Leave	4325376	4587520
+Patrick Talbot - A Reason To Leave	4456448	4718592
+Patrick Talbot - A Reason To Leave	4587520	4849664
+Patrick Talbot - A Reason To Leave	4718592	4980736
+Patrick Talbot - A Reason To Leave	6422528	6684672
+Patrick Talbot - A Reason To Leave	6553600	6815744
+Patrick Talbot - A Reason To Leave	6684672	6946816
+Patrick Talbot - A Reason To Leave	6815744	7077888
+Patrick Talbot - A Reason To Leave	6946816	7208960
+Patrick Talbot - A Reason To Leave	7077888	7340032
+Patrick Talbot - A Reason To Leave	7208960	7471104
+Patrick Talbot - A Reason To Leave	7340032	7602176
+Patrick Talbot - A Reason To Leave	7471104	7733248
+Patrick Talbot - A Reason To Leave	7602176	7864320
+Patrick Talbot - A Reason To Leave	7733248	7995392
+Patrick Talbot - A Reason To Leave	7864320	8126464
+Patrick Talbot - A Reason To Leave	7995392	8257536
+Patrick Talbot - A Reason To Leave	8126464	8388608
+Patrick Talbot - A Reason To Leave	8257536	8519680
+Patrick Talbot - A Reason To Leave	8388608	8650752
+Patrick Talbot - A Reason To Leave	8519680	8781824
+Patrick Talbot - A Reason To Leave	8650752	8912896
+Patrick Talbot - A Reason To Leave	8781824	9043968
+Patrick Talbot - A Reason To Leave	8912896	9175040
+Skelpolu - Human Mistakes	2359296	2621440
+Skelpolu - Human Mistakes	2490368	2752512
+Skelpolu - Human Mistakes	2883584	3145728
+Skelpolu - Human Mistakes	3276800	3538944
+Skelpolu - Human Mistakes	3407872	3670016
+Skelpolu - Human Mistakes	3538944	3801088
+Skelpolu - Human Mistakes	3670016	3932160
+Skelpolu - Human Mistakes	3801088	4063232
+Skelpolu - Human Mistakes	3932160	4194304
+Skelpolu - Human Mistakes	4063232	4325376
+Skelpolu - Human Mistakes	4194304	4456448
+Skelpolu - Human Mistakes	4325376	4587520
+Skelpolu - Human Mistakes	4456448	4718592
+Skelpolu - Human Mistakes	4849664	5111808
+Skelpolu - Human Mistakes	5242880	5505024
+Skelpolu - Human Mistakes	5373952	5636096
+Skelpolu - Human Mistakes	5767168	6029312
+Skelpolu - Human Mistakes	5898240	6160384
+Skelpolu - Human Mistakes	6029312	6291456
+Skelpolu - Human Mistakes	6160384	6422528
+Skelpolu - Human Mistakes	6291456	6553600
+Skelpolu - Human Mistakes	6684672	6946816
+Skelpolu - Human Mistakes	6815744	7077888
+Skelpolu - Human Mistakes	7208960	7471104
+Skelpolu - Human Mistakes	7340032	7602176
+Skelpolu - Human Mistakes	7471104	7733248
+Skelpolu - Human Mistakes	7602176	7864320
+Skelpolu - Human Mistakes	7733248	7995392
+Skelpolu - Human Mistakes	7864320	8126464
+Skelpolu - Human Mistakes	7995392	8257536
+Skelpolu - Human Mistakes	8126464	8388608
+Skelpolu - Human Mistakes	8257536	8519680
+Skelpolu - Human Mistakes	8650752	8912896
+Skelpolu - Human Mistakes	8781824	9043968
+Skelpolu - Human Mistakes	9175040	9437184
+Skelpolu - Human Mistakes	9306112	9568256
+Skelpolu - Human Mistakes	9568256	9830400
+Skelpolu - Human Mistakes	9699328	9961472
+Skelpolu - Human Mistakes	9830400	10092544
+Skelpolu - Human Mistakes	9961472	10223616
+Skelpolu - Human Mistakes	10092544	10354688
+Skelpolu - Human Mistakes	10223616	10485760
+Skelpolu - Human Mistakes	10354688	10616832
+Skelpolu - Human Mistakes	10485760	10747904
+Skelpolu - Human Mistakes	10616832	10878976
+Skelpolu - Human Mistakes	10747904	11010048
+Skelpolu - Human Mistakes	10878976	11141120
+Skelpolu - Human Mistakes	11010048	11272192
+Skelpolu - Human Mistakes	11141120	11403264
+Skelpolu - Human Mistakes	11272192	11534336
+Skelpolu - Human Mistakes	11403264	11665408
+Skelpolu - Human Mistakes	11534336	11796480
+Skelpolu - Human Mistakes	11665408	11927552
+Skelpolu - Human Mistakes	11796480	12058624
+Skelpolu - Human Mistakes	11927552	12189696
+Skelpolu - Human Mistakes	12058624	12320768
+Skelpolu - Human Mistakes	12189696	12451840
+Skelpolu - Human Mistakes	12320768	12582912
+Skelpolu - Human Mistakes	12451840	12713984
+Skelpolu - Human Mistakes	12582912	12845056
+Skelpolu - Human Mistakes	12713984	12976128
+Skelpolu - Human Mistakes	12845056	13107200
+Skelpolu - Human Mistakes	12976128	13238272
+Skelpolu - Human Mistakes	13238272	13500416
+Skelpolu - Human Mistakes	13369344	13631488
+Skelpolu - Human Mistakes	13500416	13762560
+Traffic Experiment - Sirens	131072	393216
+Traffic Experiment - Sirens	262144	524288
+Traffic Experiment - Sirens	393216	655360
+Traffic Experiment - Sirens	524288	786432
+Traffic Experiment - Sirens	655360	917504
+Traffic Experiment - Sirens	786432	1048576
+Traffic Experiment - Sirens	917504	1179648
+Traffic Experiment - Sirens	1048576	1310720
+Traffic Experiment - Sirens	1179648	1441792
+Traffic Experiment - Sirens	1310720	1572864
+Traffic Experiment - Sirens	2097152	2359296
+Traffic Experiment - Sirens	2228224	2490368
+Traffic Experiment - Sirens	2359296	2621440
+Traffic Experiment - Sirens	2490368	2752512
+Traffic Experiment - Sirens	2621440	2883584
+Traffic Experiment - Sirens	2752512	3014656
+Traffic Experiment - Sirens	2883584	3145728
+Traffic Experiment - Sirens	3014656	3276800
+Traffic Experiment - Sirens	3145728	3407872
+Traffic Experiment - Sirens	3276800	3538944
+Traffic Experiment - Sirens	3407872	3670016
+Traffic Experiment - Sirens	3538944	3801088
+Traffic Experiment - Sirens	3670016	3932160
+Traffic Experiment - Sirens	3801088	4063232
+Traffic Experiment - Sirens	3932160	4194304
+Traffic Experiment - Sirens	4063232	4325376
+Traffic Experiment - Sirens	4194304	4456448
+Traffic Experiment - Sirens	4325376	4587520
+Traffic Experiment - Sirens	4456448	4718592
+Traffic Experiment - Sirens	4587520	4849664
+Traffic Experiment - Sirens	4718592	4980736
+Traffic Experiment - Sirens	4849664	5111808
+Traffic Experiment - Sirens	4980736	5242880
+Traffic Experiment - Sirens	5767168	6029312
+Traffic Experiment - Sirens	5898240	6160384
+Traffic Experiment - Sirens	6029312	6291456
+Traffic Experiment - Sirens	6160384	6422528
+Traffic Experiment - Sirens	6291456	6553600
+Traffic Experiment - Sirens	6422528	6684672
+Traffic Experiment - Sirens	6553600	6815744
+Traffic Experiment - Sirens	6684672	6946816
+Traffic Experiment - Sirens	6815744	7077888
+Traffic Experiment - Sirens	6946816	7208960
+Traffic Experiment - Sirens	7077888	7340032
+Traffic Experiment - Sirens	7208960	7471104
+Traffic Experiment - Sirens	7340032	7602176
+Traffic Experiment - Sirens	7471104	7733248
+Traffic Experiment - Sirens	7602176	7864320
+Traffic Experiment - Sirens	7733248	7995392
+Traffic Experiment - Sirens	7864320	8126464
+Traffic Experiment - Sirens	7995392	8257536
+Traffic Experiment - Sirens	8126464	8388608
+Traffic Experiment - Sirens	8257536	8519680
+Traffic Experiment - Sirens	8388608	8650752
+Traffic Experiment - Sirens	8519680	8781824
+Traffic Experiment - Sirens	8650752	8912896
+Traffic Experiment - Sirens	8781824	9043968
+Traffic Experiment - Sirens	8912896	9175040
+Traffic Experiment - Sirens	9043968	9306112
+Traffic Experiment - Sirens	9175040	9437184
+Traffic Experiment - Sirens	9306112	9568256
+Traffic Experiment - Sirens	9437184	9699328
+Traffic Experiment - Sirens	9568256	9830400
+Traffic Experiment - Sirens	9699328	9961472
+Traffic Experiment - Sirens	9830400	10092544
+Traffic Experiment - Sirens	9961472	10223616
+Traffic Experiment - Sirens	10092544	10354688
+Traffic Experiment - Sirens	10223616	10485760
+Triviul - Angelsaint	131072	393216
+Triviul - Angelsaint	262144	524288
+Triviul - Angelsaint	393216	655360
+Triviul - Angelsaint	524288	786432
+Triviul - Angelsaint	655360	917504
+Triviul - Angelsaint	786432	1048576
+Triviul - Angelsaint	917504	1179648
+Triviul - Angelsaint	1048576	1310720
+Triviul - Angelsaint	1179648	1441792
+Triviul - Angelsaint	1310720	1572864
+Triviul - Angelsaint	1441792	1703936
+Triviul - Angelsaint	1572864	1835008
+Triviul - Angelsaint	1703936	1966080
+Triviul - Angelsaint	1835008	2097152
+Triviul - Angelsaint	1966080	2228224
+Triviul - Angelsaint	2097152	2359296
+Triviul - Angelsaint	2228224	2490368
+Triviul - Angelsaint	2359296	2621440
+Triviul - Angelsaint	2490368	2752512
+Triviul - Angelsaint	2621440	2883584
+Triviul - Angelsaint	2752512	3014656
+Triviul - Angelsaint	2883584	3145728
+Triviul - Angelsaint	3014656	3276800
+Triviul - Angelsaint	3145728	3407872
+Triviul - Angelsaint	3276800	3538944
+Triviul - Angelsaint	3407872	3670016
+Triviul - Angelsaint	3538944	3801088
+Triviul - Angelsaint	3670016	3932160
+Triviul - Angelsaint	3801088	4063232
+Triviul - Angelsaint	3932160	4194304
+Triviul - Angelsaint	4063232	4325376
+Triviul - Angelsaint	4194304	4456448
+Triviul - Angelsaint	4325376	4587520
+Triviul - Angelsaint	4456448	4718592
+Triviul - Angelsaint	4587520	4849664
+Triviul - Angelsaint	4718592	4980736
+Triviul - Angelsaint	4849664	5111808
+Triviul - Angelsaint	4980736	5242880
+Triviul - Angelsaint	5111808	5373952
+Triviul - Angelsaint	5242880	5505024
+Triviul - Angelsaint	5373952	5636096
+Triviul - Angelsaint	5505024	5767168
+Triviul - Angelsaint	5636096	5898240
+Triviul - Angelsaint	5767168	6029312
+Triviul - Angelsaint	5898240	6160384
+Triviul - Angelsaint	6029312	6291456
+Triviul - Angelsaint	6160384	6422528
+Triviul - Angelsaint	6291456	6553600
+Triviul - Angelsaint	6422528	6684672
+Triviul - Angelsaint	6553600	6815744
+Triviul - Angelsaint	7733248	7995392
+Triviul - Angelsaint	7864320	8126464
+Triviul - Angelsaint	7995392	8257536
+Triviul - Angelsaint	8126464	8388608
+Triviul - Angelsaint	8257536	8519680
+Triviul - Angelsaint	8388608	8650752
+Triviul - Angelsaint	8519680	8781824
+Triviul - Angelsaint	8650752	8912896
+Triviul - Angelsaint	8781824	9043968
+Triviul - Angelsaint	8912896	9175040
+Triviul - Angelsaint	9043968	9306112
+Triviul - Angelsaint	9175040	9437184
+Triviul - Angelsaint	9306112	9568256
+Triviul - Angelsaint	9437184	9699328
+Triviul - Angelsaint	9568256	9830400
+Triviul - Angelsaint	9699328	9961472
+Young Griffo - Pennies	917504	1179648
+Young Griffo - Pennies	1048576	1310720
+Young Griffo - Pennies	1179648	1441792
+Young Griffo - Pennies	1441792	1703936
+Young Griffo - Pennies	1572864	1835008
+Young Griffo - Pennies	1703936	1966080
+Young Griffo - Pennies	1835008	2097152
+Young Griffo - Pennies	1966080	2228224
+Young Griffo - Pennies	2097152	2359296
+Young Griffo - Pennies	2228224	2490368
+Young Griffo - Pennies	2359296	2621440
+Young Griffo - Pennies	2490368	2752512
+Young Griffo - Pennies	2621440	2883584
+Young Griffo - Pennies	2752512	3014656
+Young Griffo - Pennies	2883584	3145728
+Young Griffo - Pennies	3014656	3276800
+Young Griffo - Pennies	3145728	3407872
+Young Griffo - Pennies	3276800	3538944
+Young Griffo - Pennies	3407872	3670016
+Young Griffo - Pennies	3538944	3801088
+Young Griffo - Pennies	3670016	3932160
+Young Griffo - Pennies	3801088	4063232
+Young Griffo - Pennies	3932160	4194304
+Young Griffo - Pennies	4063232	4325376
+Young Griffo - Pennies	4325376	4587520
+Young Griffo - Pennies	4456448	4718592
+Young Griffo - Pennies	4587520	4849664
+Young Griffo - Pennies	4849664	5111808
+Young Griffo - Pennies	4980736	5242880
+Young Griffo - Pennies	5111808	5373952
+Young Griffo - Pennies	5242880	5505024
+Young Griffo - Pennies	5373952	5636096
+Young Griffo - Pennies	5505024	5767168
+Young Griffo - Pennies	5636096	5898240
+Young Griffo - Pennies	5767168	6029312
+Young Griffo - Pennies	5898240	6160384
+Young Griffo - Pennies	6029312	6291456
+Young Griffo - Pennies	6160384	6422528
+Young Griffo - Pennies	6291456	6553600
+Young Griffo - Pennies	6422528	6684672
+Young Griffo - Pennies	6553600	6815744
+Young Griffo - Pennies	6684672	6946816
+Young Griffo - Pennies	6815744	7077888
+Young Griffo - Pennies	6946816	7208960
+Young Griffo - Pennies	7077888	7340032
+Young Griffo - Pennies	7208960	7471104
+Young Griffo - Pennies	7340032	7602176
+Young Griffo - Pennies	7471104	7733248
+Young Griffo - Pennies	7602176	7864320
+Young Griffo - Pennies	9568256	9830400
+Young Griffo - Pennies	9699328	9961472
+Young Griffo - Pennies	9830400	10092544
+Young Griffo - Pennies	9961472	10223616
+Young Griffo - Pennies	10092544	10354688
+Young Griffo - Pennies	10223616	10485760
+Young Griffo - Pennies	10354688	10616832
+Young Griffo - Pennies	10485760	10747904
+Young Griffo - Pennies	10616832	10878976
