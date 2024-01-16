@@ -105,8 +105,7 @@ class PLModel(pl.LightningModule):
         # # compute metrics
         # usdr = self.compute_usdr(predT, tgtT)
 
-        # augmentations
-        batchT = self.augmentations(batchT)
+        # apply model
         mixT, tgtT = batchT[:, 0], batchT[:, 1]
         predT = self.model(mixT)
 
