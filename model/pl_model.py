@@ -46,6 +46,13 @@ class PLModel(pl.LightningModule):
         # logging
         self.save_hyperparameters(hparams)
 
+        self.multi_stft_kwargs = dict(
+            hop_length=147,
+            normalized=False
+        )
+
+        self.multi_stft_resolution_loss_weight = 1.
+
     def training_step(
             self, batch, batch_idx
     ) -> torch.Tensor:
@@ -143,7 +150,9 @@ class PLModel(pl.LightningModule):
         loss = lossR + lossI + lossT
         return loss, loss_dict
 
-    def compute_multi_scale_loss(self, multi_stft_resolutions_window_sizes: Tuple[int, ...], pred: torch.Tensor, target: torch.Tensor):
+    def compute_multi_scale_loss(self, multi_stft_resolutions_window_sizes: Tuple[int, ...], pred: torch.Tensor,
+                                 target: torch.Tensor):
+        device = pred.device
         target = target[..., :pred.shape[-1]]  # protect against lost length on istft
 
         loss = F.l1_loss(pred, target)
@@ -151,12 +160,11 @@ class PLModel(pl.LightningModule):
         multi_stft_resolution_loss = 0.
 
         for window_size in multi_stft_resolutions_window_sizes:
-
             res_stft_kwargs = dict(
-                n_fft = max(window_size, self.multi_stft_n_fft),  # not sure what n_fft is across multi resolution stft
-                win_length = window_size,
-                return_complex = True,
-                window = torch.hann_window(window_size),
+                n_fft=max(window_size, 2048),  # not sure what n_fft is across multi resolution stft
+                win_length=window_size,
+                return_complex=True,
+                window=torch.hann_window(window_size, device=device),
                 **self.multi_stft_kwargs,
             )
 
@@ -183,6 +191,8 @@ class PLModel(pl.LightningModule):
             tgtT: torch.Tensor,
             delta: float = 1e-7
     ) -> torch.Tensor:
+        tgtT = tgtT[..., :predT.shape[-1]]  # protect against lost length on istft
+
         num = torch.sum(torch.square(tgtT), dim=(1, 2))
         den = torch.sum(torch.square(tgtT - predT), dim=(1, 2))
         num += delta
