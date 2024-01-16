@@ -253,7 +253,7 @@ class BSRoformer(Module):
         dim,
         *,
         depth,
-        stereo = False,
+        stereo = True,
         num_stems = 1,
         time_transformer_depth = 2,
         freq_transformer_depth = 2,
