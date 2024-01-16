@@ -80,27 +80,38 @@ class PLModel(pl.LightningModule):
         """
         Input shape: [batch_size, n_sources, n_channels, time]
         """
+        # # augmentations
+        # batchT = self.augmentations(batchT)
+        #
+        # # STFT
+        # batchS = self.featurizer(batchT)
+        # mixS, tgtS = batchS[:, 0], batchS[:, 1]
+        #
+        # # apply model
+        # predS = self.model(mixS)
+        #
+        # # iSTFT
+        # batchT = self.inverse_featurizer(
+        #     torch.stack((predS, tgtS), dim=1)
+        # )
+        # predT, tgtT = batchT[:, 0], batchT[:, 1]
+        #
+        # # compute loss
+        # loss, loss_dict = self.compute_losses(
+        #     predS, tgtS,
+        #     predT, tgtT
+        # )
+        #
+        # # compute metrics
+        # usdr = self.compute_usdr(predT, tgtT)
+
         # augmentations
         batchT = self.augmentations(batchT)
-
-        # STFT
-        batchS = self.featurizer(batchT)
-        mixS, tgtS = batchS[:, 0], batchS[:, 1]
-
-        # apply model
-        predS = self.model(mixS)
-
-        # iSTFT
-        batchT = self.inverse_featurizer(
-            torch.stack((predS, tgtS), dim=1)
-        )
-        predT, tgtT = batchT[:, 0], batchT[:, 1]
+        mixT, tgtT = batchT[:, 0], batchT[:, 1]
+        predT = self.model(mixT)
 
         # compute loss
-        loss, loss_dict = self.compute_losses(
-            predS, tgtS,
-            predT, tgtT
-        )
+        loss, loss_dict = self.compute_multi_scale_loss((4096, 2048, 1024, 512, 256), predT, tgtT)
 
         # compute metrics
         usdr = self.compute_usdr(predT, tgtT)
@@ -155,8 +166,15 @@ class PLModel(pl.LightningModule):
 
         weighted_multi_resolution_loss = multi_stft_resolution_loss * self.multi_stft_resolution_loss_weight
 
-        total_loss =  loss + weighted_multi_resolution_loss
-        return total_loss
+        total_loss = loss + weighted_multi_resolution_loss
+
+        loss_dict = {
+            "multi-stft loss": multi_stft_resolution_loss,
+            "weighted multi-stft loss": weighted_multi_resolution_loss,
+            "time loss": loss
+        }
+
+        return total_loss, loss_dict
 
     @staticmethod
     def compute_usdr(
