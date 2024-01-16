@@ -61,7 +61,7 @@ trainer:
   deterministic: False
 
 # hydra
-experiment_dirname: bandsplitrnn
+experiment_dirname: band-split-rope-transformer
 hydra:
   run:
     dir: logs/${...experiment_dirname}/${now:%Y-%m-%d}_${now:%H-%M}
