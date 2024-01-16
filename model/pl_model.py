@@ -3,9 +3,13 @@ import typing as tp
 import torch
 import torch.nn as nn
 import pytorch_lightning as pl
+import torch.nn.functional as F
 from torch.optim import Optimizer, lr_scheduler
 from omegaconf import DictConfig
 
+from beartype.typing import Tuple, Optional, List, Callable
+
+from einops import rearrange, pack, unpack
 
 class PLModel(pl.LightningModule):
     def __init__(
@@ -128,6 +132,31 @@ class PLModel(pl.LightningModule):
         }
         loss = lossR + lossI + lossT
         return loss, loss_dict
+
+    def compute_multi_scale_loss(self, multi_stft_resolutions_window_sizes: Tuple[int, ...], pred: torch.Tensor, target: torch.Tensor):
+        loss = F.l1_loss(pred, target)
+
+        multi_stft_resolution_loss = 0.
+
+        for window_size in multi_stft_resolutions_window_sizes:
+
+            res_stft_kwargs = dict(
+                n_fft = max(window_size, self.multi_stft_n_fft),  # not sure what n_fft is across multi resolution stft
+                win_length = window_size,
+                return_complex = True,
+                window = torch.hann_window(window_size),
+                **self.multi_stft_kwargs,
+            )
+
+            recon_Y = torch.stft(rearrange(pred, '... s t -> (... s) t'), **res_stft_kwargs)
+            target_Y = torch.stft(rearrange(target, '... s t -> (... s) t'), **res_stft_kwargs)
+
+            multi_stft_resolution_loss = multi_stft_resolution_loss + F.l1_loss(recon_Y, target_Y)
+
+        weighted_multi_resolution_loss = multi_stft_resolution_loss * self.multi_stft_resolution_loss_weight
+
+        total_loss =  loss + weighted_multi_resolution_loss
+        return total_loss
 
     @staticmethod
     def compute_usdr(
