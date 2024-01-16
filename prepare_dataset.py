@@ -111,7 +111,7 @@ def main(
         subsets=subset,
         split=split,
         download=False,
-        is_wav=False,
+        is_wav=True,
     )
     # initialize Source Activity Detector
     sad_cfg = OmegaConf.load(sad_cfg_path)
