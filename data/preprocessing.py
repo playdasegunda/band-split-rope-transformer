@@ -11,7 +11,7 @@ class SAD:
     def __init__(
             self,
             sr: int,
-            window_size_in_sample: float = 262144,
+            window_size_in_sample: float = 131072,
             overlap_ratio: float = 0.5,
             n_chunks_per_segment: int = 8,
             eps: float = 1e-5,
