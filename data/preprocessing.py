@@ -11,9 +11,9 @@ class SAD:
     def __init__(
             self,
             sr: int,
-            window_size_in_sec: int = 6,
+            window_size_in_sample: float = 262144,
             overlap_ratio: float = 0.5,
-            n_chunks_per_segment: int = 10,
+            n_chunks_per_segment: int = 8,
             eps: float = 1e-5,
             gamma: float = 1e-3,
             threshold_max_quantile: float = 0.15,
@@ -26,7 +26,7 @@ class SAD:
         self.threshold_max_quantile = threshold_max_quantile
         self.threshold_segment = threshold_segment
 
-        self.window_size = sr * window_size_in_sec
+        self.window_size = window_size_in_sample
         self.step_size = int(self.window_size * overlap_ratio)
 
     def chunk(self, y: torch.Tensor):

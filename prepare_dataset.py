@@ -16,7 +16,7 @@ parser.add_argument(
     '--input-dir',
     type=str,
     required=False,
-    default= "D://dataset//musdb",
+    default= "D://dataset//musdb18hq",
     help="Path to directory with musdb18 dataset"
 )
 parser.add_argument(
@@ -31,14 +31,14 @@ parser.add_argument(
     '--subset',
     type=str,
     required=False,
-    default='train',
+    default='test',
     help="Train/test subset of dataset to process"
 )
 parser.add_argument(
     '--split',
     type=str,
     required=False,
-    default='valid',
+    default='train',
     help="Train/valid split of train dataset. Used if subset=train"
 )
 parser.add_argument(
