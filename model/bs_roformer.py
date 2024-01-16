@@ -437,7 +437,7 @@ class BSRoformer(Module):
         if num_stems == 1:
             recon_audio = rearrange(recon_audio, 'b 1 s t -> b s t')
 
-        return  recon_audio
+        return recon_audio
 
         # if a target is passed in, calculate loss for learning
         #

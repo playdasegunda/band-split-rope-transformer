@@ -144,6 +144,8 @@ class PLModel(pl.LightningModule):
         return loss, loss_dict
 
     def compute_multi_scale_loss(self, multi_stft_resolutions_window_sizes: Tuple[int, ...], pred: torch.Tensor, target: torch.Tensor):
+        target = target[..., :pred.shape[-1]]  # protect against lost length on istft
+
         loss = F.l1_loss(pred, target)
 
         multi_stft_resolution_loss = 0.
