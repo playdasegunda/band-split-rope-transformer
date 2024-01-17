@@ -6,6 +6,8 @@ import torch.nn as nn
 from torch.nn import functional as F
 from omegaconf import DictConfig
 
+from einops import rearrange, pack, unpack
+
 from train import initialize_model, initialize_featurizer
 from utils.utils_inference import load_pl_state_dict, get_minibatch
 
@@ -110,3 +112,21 @@ class Separator(nn.Module):
 
 
         return raw_audio
+
+if __name__ == "__main__":
+    row1 = torch.arange(1, 129)  # Tensor from 1 to 128
+    row2 = torch.arange(128, 0, -1)  # Tensor from 128 to 1
+
+    # Stack the two tensors to form a 2D tensor
+    y = torch.stack((row1, row2))
+
+    print(y)
+    print(y.shape)
+    assert (y.shape[0] == 2)
+    # y = y.unfold(-1, frame_size_in_sample, hop_size_in_sample)
+    y = y.unfold(-1, 16, 8)
+
+    print("here:")
+    print(y)
+    print(y.shape)
+
