@@ -26,21 +26,17 @@ val_loader:
 opt:
   _target_: torch.optim.AdamW
   lr: 5e-4
-  step_size: 40000
-  gamma: 0.98
+# sch:
+#   _target_: torch.optim.lr_scheduler.StepLR
+#   step_size: 40000
+#   gamma: 0.98
 
-# step learning rate scheduler
-step_lr_sch:
-  _target_: torch.optim.lr_scheduler.StepLR
-  step_size: 40000
-  gamma: 0.98
-
-# warmup scheduler
-warmup_sch:
-  _target_: torch.optim.lr_scheduler.LambdaLR
-  warmup_step: 10
-  alpha: 0.1
-  gamma: 0.98
+# torch.optim.lr_scheduler.LambdaLR
+sch:
+    warmup_step: 10
+    alpha: 0.1
+    step_size: 40000
+    gamma: 0.9
 
 ckpt_path: null
 
