@@ -16,6 +16,8 @@ from torch.optim import Optimizer, lr_scheduler
 from data import musdbDataset, collate_fn
 from model import BandSplitRNN, BSRoformer, PLModel
 
+from utils.callbacks import ValidationProgressBar
+
 log = logging.getLogger(__name__)
 
 def initialize_loaders(cfg: DictConfig) -> tp.Tuple[DataLoader, DataLoader]:
@@ -130,6 +132,7 @@ def initialize_utils(
     # initialize logger and callbacks
     logger = instantiate(cfg.logger)
     callbacks = list(instantiate(cfg.callbacks).values())
+    callbacks.append(ValidationProgressBar())
     return logger, callbacks
 
 
