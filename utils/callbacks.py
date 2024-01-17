@@ -14,15 +14,16 @@
 import contextlib
 import copy
 import os
+import sys
 import threading
 from typing import Any, Dict, Iterable
 
 import pytorch_lightning as pl
 import torch
+import tqdm
 from pytorch_lightning import Callback
 from pytorch_lightning.utilities.exceptions import MisconfigurationException
 from pytorch_lightning.utilities.rank_zero import rank_zero_info
-
 
 class EMA(Callback):
     """
@@ -363,3 +364,18 @@ class OverrideEpochStepCallback(Callback):
     def _log_step_as_current_epoch(self, trainer: pl.Trainer, pl_module: pl.LightningModule):
         pl_module.log("step", trainer.current_epoch)
 
+class ValidationProgressBar(pl.callbacks.TQDMProgressBar):
+    
+    def __init__(self):
+        super(ValidationProgressBar, self).__init__()
+
+    def init_validation_tqdm(self):
+        bar = tqdm.tqdm(
+            desc=self.validation_description,
+            position=0,
+            disable=self.is_disabled,
+            leave=True,
+            dynamic_ncols=True,
+            file=sys.stdout
+        )
+        return bar
