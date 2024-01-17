@@ -24,8 +24,8 @@ val_loader:
 
 # optimization
 opt:
-  _target_: torch.optim.Adam
-  lr: 1e-3
+  _target_: torch.optim.AdamW
+  lr: 5e-4
 # sch:
 #   _target_: torch.optim.lr_scheduler.StepLR
 #   step_size: 2

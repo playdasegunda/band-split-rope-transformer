@@ -80,7 +80,7 @@ def initialize_model(
     """
     # initialize model
     model = BSRoformer(
-        dim=512,
+        dim=384,
         depth=12,
         time_transformer_depth=1,
         freq_transformer_depth=1
