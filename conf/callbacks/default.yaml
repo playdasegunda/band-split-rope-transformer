@@ -35,3 +35,6 @@ ema:
 #
 #log_on_epoch:
 #  _target_: utils.callbacks.OverrideEpochStepCallback
+
+ui:
+  _target_: utils.callbacks.progressbar
