@@ -1,6 +1,6 @@
 # defaults
 defaults:
-  - model: bandsplitrnnV7
+  - model: band_split_rope_transformer
   - train_dataset: default
   - val_dataset: default
   - test_dataset: default
