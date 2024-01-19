@@ -140,8 +140,7 @@ def initialize_utils(
 def my_app(cfg: DictConfig) -> None:
     pl.seed_everything(42, workers=True)
 
-    # print(OmegaConf.to_yaml(cfg))
-    # log.info()
+    log.info(OmegaConf.to_yaml(cfg))
 
     log.info("Initializing loaders, featurizers.")
     train_loader, val_loader = initialize_loaders(cfg)
