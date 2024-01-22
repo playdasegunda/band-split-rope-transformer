@@ -87,6 +87,6 @@ class Separator(nn.Module):
         Output shape:
             [n_channels, duration]
         """
-
+        raw_audio = raw_audio * 0.5
 
         return raw_audio

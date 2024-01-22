@@ -46,34 +46,23 @@ class InferenceProgram:
         self.sep = Separator(self.cfg, self.ckpt_path)
         _ = self.sep.eval()
         _ = self.sep.to(self.device)
-        print("initialize the separator")
 
     def run(self) -> None:
 
-        print(self.cfg.audio_params['in_fp'])
-        print(self.cfg.audio_params['out_fp'])
-
         y = self.dataset.load_file(self.cfg.audio_params['in_fp'])
+        out_fp = self.dataset.out_fp
+
         print(y)
+        print(out_fp)
         print(y.shape)
 
-        # y = y.to(self.device)
-        #
-        # # apply separator to the mixture file
-        # y_hat = self.sep(y).cpu()
-        #
-        # # save file as .wav
-        # sf.write(out_fp, y_hat.T, samplerate=44100)
+        y = y.to(self.device)
 
-        # for (y, out_fp) in self.dataset:
-        #     # send to device
-        #     y = y.to(self.device)
-        #
-        #     # apply separator to the mixture file
-        #     y_hat = self.sep(y).cpu()
-        #
-        #     # save file as .wav
-        #     sf.write(out_fp, y_hat.T, samplerate=self.dataset.sr)
+        # apply separator to the mixture file
+        y_hat = self.sep(y).cpu()
+
+        # save file as .wav
+        sf.write(out_fp, y_hat.T, samplerate=44100)
 
         return None
 
