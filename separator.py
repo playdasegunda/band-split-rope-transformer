@@ -4,7 +4,7 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
-from omegaconf import DictConfig
+from omegaconf import DictConfig, OmegaConf
 
 from einops import rearrange, pack, unpack
 
@@ -24,32 +24,14 @@ class Separator(nn.Module):
         # modules params
         self.ckpt_path = Path(ckpt_path) if ckpt_path is not None else None
 
+        print(123123)
+
         # module initialization
         self.model = self.initialize_modules()
 
-        # audio params
-        self.sr = self.cfg.audio_params.sr
-        self.chunk_size = int(self.cfg.audio_params.win_size * self.sr)
-        self.chunk_step = int(self.cfg.audio_params.hop_size * self.sr)
-
-        # padding for chunk level (used to match stft and istft shapes)
-        pad_chunk = self.model[0].win_length - self.chunk_size % self.model[0].hop_length
-        self.ws = self.chunk_size + pad_chunk
-        self.hs = self.chunk_step + pad_chunk
-
-        # padding for overlap-add
-        self.padding_whole = self.chunk_size - self.chunk_step
-        self.bs = self.cfg.audio_params.batch_size
-        window_name = self.cfg.audio_params.window
-        if isinstance(window_name, str):
-            self.window = getattr(torch, f'{window_name}_window')(self.ws)
-        else:
-            self.window = None
 
     def initialize_modules(self) -> nn.Module:
 
-        # load modules
-        featurizer, inverse_featurizer = initialize_featurizer(self.cfg)
         model, *_ = initialize_model(self.cfg)
         _ = model.eval()
 
@@ -112,21 +94,3 @@ class Separator(nn.Module):
 
 
         return raw_audio
-
-if __name__ == "__main__":
-    row1 = torch.arange(1, 129)  # Tensor from 1 to 128
-    row2 = torch.arange(128, 0, -1)  # Tensor from 128 to 1
-
-    # Stack the two tensors to form a 2D tensor
-    y = torch.stack((row1, row2))
-
-    print(y)
-    print(y.shape)
-    assert (y.shape[0] == 2)
-    # y = y.unfold(-1, frame_size_in_sample, hop_size_in_sample)
-    y = y.unfold(-1, 16, 8)
-
-    print("here:")
-    print(y)
-    print(y.shape)
-
