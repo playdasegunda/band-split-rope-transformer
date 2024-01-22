@@ -30,7 +30,7 @@ class InferenceProgram:
         self.ckpt_path = ckpt_path
 
         # config params
-        self.cfg_path = self.tgt_dir / 'tb_logs' / 'hparams.yaml'
+        self.cfg_path = self.tgt_dir / 'hparams.yaml'
         self.cfg = OmegaConf.load(self.cfg_path)
 
         self.device = torch.device(

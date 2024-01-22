@@ -1,24 +1,8 @@
 model:
-  sr: 44100
-  n_fft: 2048
-  bandsplits:
-    - [ 1000, 100 ]
-    - [ 4000, 250 ]
-    - [ 8000, 500 ]
-    - [ 16000, 1000 ]
-    - [ 20000, 2000 ]
-  t_timesteps: 263
-  bottleneck_layer: 'rnn'
-  fc_dim: 128
-  rnn_dim: 256
-  rnn_type: "LSTM"
-  bidirectional: True
-  num_layers: 12
-  mlp_dim: 512
-  return_mask: False
-
-  complex_as_channel: True
-  is_mono: False
+  dim: 256
+  depth: 12
+  time_transformer_depth: 1
+  freq_transformer_depth: 1
 
 featurizer:
   direct_transform:
