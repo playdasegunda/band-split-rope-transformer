@@ -24,14 +24,10 @@ class Separator(nn.Module):
         # modules params
         self.ckpt_path = Path(ckpt_path) if ckpt_path is not None else None
 
-        print(123123)
-
         # module initialization
         self.model = self.initialize_modules()
 
-
     def initialize_modules(self) -> nn.Module:
-
         model, *_ = initialize_model(self.cfg)
         _ = model.eval()
 
