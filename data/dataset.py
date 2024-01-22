@@ -225,6 +225,8 @@ class EvalSourceSeparationDataset(Dataset):
 
         self.filelist = self.get_filelist()
 
+        print(self.mode, self.in_fp, self.out_fp, self.target, self.is_mono, self.sr, self.win_size, self.hop_size, self.pad_size, self.filelist)
+
     def get_test_filelist(self) -> tp.List[tp.Tuple[str, str]]:
         filelist = []
         test_dir = self.in_fp / self.mode
