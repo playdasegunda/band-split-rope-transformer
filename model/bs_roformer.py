@@ -438,44 +438,4 @@ class BSRoformer(Module):
             recon_audio = rearrange(recon_audio, 'b 1 s t -> b s t')
 
         return recon_audio
-
-        # if a target is passed in, calculate loss for learning
-        #
-        # if not exists(target):
-        #     return recon_audio
-        #
-        # if self.num_stems > 1:
-        #     assert target.ndim == 4 and target.shape[1] == self.num_stems
-        #
-        # if target.ndim == 2:
-        #     target = rearrange(target, '... t -> ... 1 t')
-        #
-        # target = target[..., :recon_audio.shape[-1]] # protect against lost length on istft
-        #
-        # loss = F.l1_loss(recon_audio, target)
-        #
-        # multi_stft_resolution_loss = 0.
-        #
-        # for window_size in self.multi_stft_resolutions_window_sizes:
-        #
-        #     res_stft_kwargs = dict(
-        #         n_fft = max(window_size, self.multi_stft_n_fft),  # not sure what n_fft is across multi resolution stft
-        #         win_length = window_size,
-        #         return_complex = True,
-        #         window = self.multi_stft_window_fn(window_size, device = device),
-        #         **self.multi_stft_kwargs,
-        #     )
-        #
-        #     recon_Y = torch.stft(rearrange(recon_audio, '... s t -> (... s) t'), **res_stft_kwargs)
-        #     target_Y = torch.stft(rearrange(target, '... s t -> (... s) t'), **res_stft_kwargs)
-        #
-        #     multi_stft_resolution_loss = multi_stft_resolution_loss + F.l1_loss(recon_Y, target_Y)
-        #
-        # weighted_multi_resolution_loss = multi_stft_resolution_loss * self.multi_stft_resolution_loss_weight
-        #
-        # total_loss =  loss + weighted_multi_resolution_loss
-        #
-        # if not return_loss_breakdown:
-        #     return total_loss
-        #
-        # return total_loss, (loss, multi_stft_resolution_loss)
+    
