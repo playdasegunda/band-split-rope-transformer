@@ -49,10 +49,13 @@ class Separator(nn.Module):
     def overlap_average(self):
         pass
 
+    def overlap_window(self):
+        pass
+
     def truncate_concat(self):
         pass
 
-    def PreProcessData(self, xn, frameSize, stepSize):
+    def pre_process_data(self, xn, frameSize, stepSize):
         # make sure xn is a tensor
         if not torch.is_tensor(xn):
             xn = torch.tensor(xn, dtype=torch.float32)
@@ -104,9 +107,10 @@ class Separator(nn.Module):
         Output shape:
             [n_channels, duration]
         """
-        raw_audio = raw_audio * 0.5
+        duration = raw_audio.shape[1]
 
-        # y = self.chunk(raw_audio)
-        # self.model(y)
+        y = self.pre_process_data(raw_audio, self.window_size, self.step_size)
+        y = rearrange(y, 's b t -> b s t')
+        y_hat = self.model(y)
 
         return raw_audio
