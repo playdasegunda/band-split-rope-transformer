@@ -27,6 +27,9 @@ class Separator(nn.Module):
         # module initialization
         self.model = self.initialize_modules()
 
+        self.window_size = 131072
+        self.step_size = 65536
+
     def initialize_modules(self) -> nn.Module:
         model, *_ = initialize_model(self.cfg)
         _ = model.eval()
@@ -43,39 +46,53 @@ class Separator(nn.Module):
 
         return model
 
-    def chunk(self, y: torch.Tensor):
-        """
-        Input shape: [n_channels, n_frames]
-        Output shape: []
-        """
-        y = y.unfold(-1, self.window_size, self.step_size)
-        y = y.chunk(self.n_chunks_per_segment, dim=-1)
-        y = torch.stack(y, dim=-2)
-        return y
-
     def overlap_average(self):
         pass
 
     def truncate_concat(self):
         pass
 
-    def separate(self, y: torch.Tensor) -> torch.Tensor:
-        n_chunks = y.shape[0]
-        window = self.window.to(y) if self.window is not None else None
+    def PreProcessData(self, xn, frameSize, stepSize):
+        # make sure xn is a tensor
+        if not torch.is_tensor(xn):
+            xn = torch.tensor(xn, dtype=torch.float32)
 
-        chunks = []
-        for s, e in get_minibatch(n_chunks, self.bs):
-            # apply the model
-            chunk = self.model(y[s:e])
+        # check dimension of xn
+        if xn.dim() != 2 or xn.size(0) != 2:
+            raise ValueError("Input tensor should have dimensions of (2, t)")
 
-            if window is None:
-                chunk /= (self.ws / self.hs)
+        # init dataSet
+        channels, t = xn.shape
+        dataSet = []
+
+        # process by channel
+        for channel in range(channels):
+            channel_data = xn[channel]
+
+            # zero padding
+            padding = (stepSize - (len(channel_data) % stepSize)) % stepSize
+            if padding > 0:
+                padded_data = torch.cat((channel_data, torch.zeros(padding)))
             else:
-                chunk = chunk * window
+                padded_data = channel_data
 
-            chunks.append(chunk)
+            # compute iterations
+            total_length = len(padded_data)
+            iterations = (total_length - frameSize) // stepSize + 1
 
-        return torch.cat(chunks)
+            # extract data and assign into frame
+            channel_frames = torch.zeros((iterations, frameSize))
+            for i in range(iterations):
+                start = i * stepSize
+                end = start + frameSize
+                channel_frames[i, :] = padded_data[start:end]
+
+            dataSet.append(channel_frames)
+
+        # merge list as tensor
+        dataSet = torch.stack(dataSet)
+
+        return dataSet
 
     @torch.no_grad()
     def forward(self, raw_audio: torch.Tensor) -> torch.Tensor:
@@ -88,5 +105,8 @@ class Separator(nn.Module):
             [n_channels, duration]
         """
         raw_audio = raw_audio * 0.5
+
+        # y = self.chunk(raw_audio)
+        # self.model(y)
 
         return raw_audio
