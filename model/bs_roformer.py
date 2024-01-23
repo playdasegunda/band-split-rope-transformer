@@ -349,12 +349,7 @@ class BSRoformer(Module):
             normalized = multi_stft_normalized
         )
 
-    def forward(
-        self,
-        raw_audio,
-        target = None,
-        return_loss_breakdown = False
-    ):
+    def forward(self, raw_audio: torch.Tensor, is_inference=False) -> torch.Tensor:
         """
         einops
 
@@ -408,7 +403,8 @@ class BSRoformer(Module):
 
             x, = unpack(x, ps, '* f d')
 
-        x = self.final_norm(x)
+        if not is_inference:
+            x = self.final_norm(x)
 
         num_stems = len(self.mask_estimators)
 
@@ -438,4 +434,3 @@ class BSRoformer(Module):
             recon_audio = rearrange(recon_audio, 'b 1 s t -> b s t')
 
         return recon_audio
-    

@@ -52,10 +52,6 @@ class InferenceProgram:
         y = self.dataset.load_file(self.cfg.audio_params['in_fp'])
         out_fp = self.dataset.out_fp
 
-        print(y)
-        print(out_fp)
-        print(y.shape)
-
         y = y.to(self.device)
 
         # apply separator to the mixture file
