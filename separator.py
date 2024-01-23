@@ -49,13 +49,32 @@ class Separator(nn.Module):
     def overlap_average(self):
         pass
 
-    def overlap_window(self):
-        pass
+    def overlap_window(self, xn: torch.Tensor) -> torch.Tensor:
+        batch_size, *_ = xn.shape
+        total_length = self.window_size + (batch_size - 1) * self.step_size
+
+        yn = torch.zeros(2, total_length)
+
+        hann_window = torch.hann_window(self.window_size)
+
+        for index, chunk in enumerate(xn):
+            start = index * self.step_size
+            end = start + self.window_size
+            yn[:, start:end] = yn[:, start:end] + chunk * hann_window
+
+        return yn
 
     def truncate_concat(self):
         pass
 
-    def pre_process_data(self, xn, frameSize, stepSize):
+    def pre_process_data(self, xn):
+        """
+        Pads audio, unfolds it into chunks.
+        :param xn:
+        :param frameSize:
+        :param stepSize:
+        :return:
+        """
         # make sure xn is a tensor
         if not torch.is_tensor(xn):
             xn = torch.tensor(xn, dtype=torch.float32)
@@ -73,7 +92,7 @@ class Separator(nn.Module):
             channel_data = xn[channel]
 
             # zero padding
-            padding = (stepSize - (len(channel_data) % stepSize)) % stepSize
+            padding = (self.step_size - (len(channel_data) % self.step_size)) % self.step_size
             if padding > 0:
                 padded_data = torch.cat((channel_data, torch.zeros(padding)))
             else:
@@ -81,13 +100,13 @@ class Separator(nn.Module):
 
             # compute iterations
             total_length = len(padded_data)
-            iterations = (total_length - frameSize) // stepSize + 1
+            iterations = (total_length - self.window_size) // self.step_size + 1
 
             # extract data and assign into frame
-            channel_frames = torch.zeros((iterations, frameSize))
+            channel_frames = torch.zeros((iterations, self.window_size))
             for i in range(iterations):
-                start = i * stepSize
-                end = start + frameSize
+                start = i * self.step_size
+                end = start + self.window_size
                 channel_frames[i, :] = padded_data[start:end]
 
             dataSet.append(channel_frames)
@@ -100,8 +119,12 @@ class Separator(nn.Module):
     @torch.no_grad()
     def forward(self, raw_audio: torch.Tensor) -> torch.Tensor:
         """
-        Pads audio, unfolds it into even chunks, applies separation on the chunk level in the TF-domain,
-        restores audio via overlap-add.
+        Applies separation on the chunk level in the TF-domain,
+        restores audio via
+        1. overlap-add-average
+        2. overlap-add-hann-window
+        3. truncate-concat
+
         Input shape:
             [n_channels, duration]
         Output shape:
@@ -109,8 +132,11 @@ class Separator(nn.Module):
         """
         duration = raw_audio.shape[1]
 
-        y = self.pre_process_data(raw_audio, self.window_size, self.step_size)
+        y = self.pre_process_data(raw_audio)
         y = rearrange(y, 's b t -> b s t')
         y_hat = self.model(y)
 
-        return raw_audio
+        raw_output = self.overlap_window(y_hat)
+        output = raw_output[:, :duration]
+
+        return output
