@@ -1,5 +1,5 @@
-dim: 256
-depth: 12
+dim: 384
+depth: 6
 time_transformer_depth: 1
 freq_transformer_depth: 1
 heads: 8
