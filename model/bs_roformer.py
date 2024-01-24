@@ -255,13 +255,13 @@ class BSRoformer(Module):
         depth,
         stereo = True,
         num_stems = 1,
-        time_transformer_depth = 2,
-        freq_transformer_depth = 2,
+        time_transformer_depth,
+        freq_transformer_depth,
         freqs_per_bands: Tuple[int, ...] = DEFAULT_FREQS_PER_BANDS,  # in the paper, they divide into ~60 bands, test with 1 for starters
         dim_head = 64,
-        heads = 8,
-        attn_dropout = 0.,
-        ff_dropout = 0.,
+        heads,
+        attn_dropout,
+        ff_dropout,
         flash_attn = True,
         dim_freqs_in = 1025,
         stft_n_fft = 2048,
@@ -405,6 +405,8 @@ class BSRoformer(Module):
 
         if not is_inference:
             x = self.final_norm(x)
+        else:
+            x = x * self.final_norm.scale * self.final_norm.gamma
 
         num_stems = len(self.mask_estimators)
 
