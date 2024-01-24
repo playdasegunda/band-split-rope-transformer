@@ -1,4 +1,4 @@
-in_fp: "D://Project"
+in_fp: "../"
 target: ${..train_dataset.target}
 is_mono: False
 sr: 44100
