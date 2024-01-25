@@ -1,8 +1,11 @@
 model:
   dim: 256
-  depth: 12
+  depth: 6
   time_transformer_depth: 1
   freq_transformer_depth: 1
+  heads: 8
+  attn_dropout: 0.1
+  ff_dropout: 0.1
 
 featurizer:
   direct_transform:
