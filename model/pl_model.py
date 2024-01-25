@@ -87,8 +87,8 @@ class PLModel(pl.LightningModule):
         """
         Input shape: [batch_size, n_sources, n_channels, time]
         """
-        # # augmentations
-        # batchT = self.augmentations(batchT)
+        # augmentations
+        batchT = self.augmentations(batchT)
         #
         # # STFT
         # batchS = self.featurizer(batchT)
