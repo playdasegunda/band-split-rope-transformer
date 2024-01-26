@@ -225,8 +225,6 @@ class EvalSourceSeparationDataset(Dataset):
 
         self.filelist = self.get_filelist()
 
-        print(self.mode, self.in_fp, self.out_fp, self.target, self.is_mono, self.sr, self.win_size, self.hop_size, self.pad_size, self.filelist)
-
     def get_test_filelist(self) -> tp.List[tp.Tuple[str, str]]:
         filelist = []
         test_dir = self.in_fp / self.mode
@@ -294,3 +292,45 @@ class EvalSourceSeparationDataset(Dataset):
 
     def __len__(self):
         return len(self.filelist)
+
+class moisesdbDataset(Dataset):
+    """
+    Dataset class for working with train/validation data from MOISESDB dataset.
+    """
+    TARGETS: tp.Set[str] = {'vocals', 'bass', 'drums', 'other'}
+    EXTENSIONS: tp.Set[str] = {'.wav', '.mp3'}
+    def __init__(
+            self,
+            file_dir: str,
+            txt_dir: str = None,
+            txt_path: str = None,
+            target: str = 'vocals',
+            preload_dataset: bool = False,
+            is_mono: bool = False,
+            is_training: bool = True,
+            sr: int = 44100,
+            silent_prob: float = 0.1,
+            mix_prob: float = 0.1,
+            mix_tgt_too: bool = False,
+    ):
+        self.file_dir = Path(file_dir)
+        self.is_training = is_training
+        self.target = target
+        self.sr = sr
+
+        if txt_path is None and txt_dir is not None:
+            mode = 'train' if self.is_training else 'valid'
+            self.txt_path = Path(txt_dir) / f"{target}_{mode}.txt"
+        elif txt_path is not None and txt_dir is None:
+            self.txt_path = Path(txt_path)
+        else:
+            raise ValueError("You need to specify either 'txt_path' or 'txt_dir'.")
+
+        self.preload_dataset = preload_dataset
+        self.is_mono = is_mono
+        self.filelist = self.get_filelist()
+
+        # augmentations
+        self.silent_prob = silent_prob
+        self.mix_prob = mix_prob
+        self.mix_tgt_too = mix_tgt_too
